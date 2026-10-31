@@ -407,6 +407,8 @@ Tunnel</p>
 </tr>
 </tbody>
 </table>
+<p>ทุกบทจบด้วยสรุปท้ายบทและคำถามทบทวน แนวคำตอบอยู่ในภาคผนวก ซ
+วิทยากรใช้คำถามชุดนี้ร่วมกับสไลด์อบรมและแบบทดสอบก่อนและหลังอบรมใน Toolkit ได้</p>
 <p>ภาพด้านล่างคือแผนที่ของทั้งเล่ม ภาค 1–4 เรียงตามลำดับงาน ตั้งแต่เข้าใจภัย
 ทำตามกฎหมาย ลงมือป้องกัน ไปจนถึงตรวจจับและรับมือ ภาค 6–7 ต่อยอดเมื่อพื้นฐานครบ
 ส่วนภาค 5 เรื่องคนและองค์กรเป็นฐานรากของทุกภาค ถ้ากำลังเกิดเหตุและต้องการขั้นตอนทันที
@@ -549,10 +551,11 @@ EDR/XDR/NDR/MDR, SOAR, SASE/ZTNA, Deception และ OpenCanary, ASM/CTEM, AI
 แบบบันทึกการทดสอบกู้คืน</li>
 <li>ค. คำสั่งที่ใช้บ่อย (Linux, Windows, MySQL, Wazuh, Nmap)</li>
 <li>ง. ช่องทางติดต่อและแหล่งข้อมูล</li>
-<li>จ. อภิธานศัพท์</li>
+<li>จ. อภิธานศัพท์ 103 คำ และตัวย่อหน่วยงานภาษาไทย</li>
 <li>ฉ. แบบประเมินระดับวุฒิภาวะด้วยตนเอง (10 ด้าน ระดับ 0–4)</li>
 <li>ช. Playbook การ์ดหน้าเดียวพร้อม Flow 6 เหตุการณ์: Ransomware, ข้อมูลรั่วไหล,
 เว็บถูกเปลี่ยนหน้า, คลิกลิงก์ฟิชชิง, อุปกรณ์หาย, โทรศัพท์อ้างเป็น IT/Vendor</li>
+<li>ซ. แนวคำตอบคำถามทบทวนท้ายบททั้ง 25 บท</li>
 </ul>
 <h3 id="บรรณานกรมและแหลงอางอง">บรรณานุกรมและแหล่งอ้างอิง</h3>
 <p>กฎหมายและเอกสารของหน่วยงานไทย, แนวทางและรายงานต่างประเทศ,
@@ -1677,7 +1680,8 @@ CTAM+ และซ้อมขั้นตอนแจ้งเหตุ</li>
 <li>ข้อมูลสุขภาพเป็นข้อมูลอ่อนไหว การรักษาตามปกติใช้ข้อยกเว้นมาตรา 26 ได้ แต่ต้องแจ้ง
 Privacy Notice</li>
 <li>ใช้แม่แบบของกระทรวงได้ทันที และใช้เวชระเบียนแทน ROPA ของผู้ป่วยได้</li>
-<li>ข้อมูลรั่ว: รายงานภายในใน 24 ชม. แจ้ง สคส. ภายใน 72 ชม.</li>
+<li>ข้อมูลรั่ว: แจ้ง DPO ทันที แจ้ง สคส. ภายใน 72 ชม. และถ้าเกิดจากภัยไซเบอร์ แจ้ง
+Health CERT ภายใน 24 ชม.</li>
 <li>PDPA เป็นส่วนหนึ่งของธรรมาภิบาลข้อมูล ไม่ใช่งานของ DPO คนเดียว</li>
 </ul>
 </section>
@@ -2113,6 +2117,18 @@ Cybersecurity Performance Goals และ NIST CSF 2.0 อยู่ในบท�
 <li>ตัวชี้วัด v2.1 มีเกณฑ์ขั้นต่ำ 7 ข้อ ซึ่งเป็นแกนของ CTAM+</li>
 <li>เอกสารชุดเดียวกันใช้ตอบได้หลายมาตรฐาน ถ้าจัดเก็บอย่างเป็นระบบ</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-2" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ตามประกาศ สธ. พ.ศ. 2565 ใครรับผิดชอบเมื่อเกิดความเสียหายจากการละเลยนโยบาย
+และต้องตรวจประเมินความเสี่ยงบ่อยแค่ไหน</li>
+<li>หน่วยงานต้องเขียนนโยบายความมั่นคงปลอดภัยใหม่ทั้งฉบับหรือไม่</li>
+<li>ผู้ตรวจประเมินขอดูหลักฐานว่าหน่วยงาน “ทำตามแนวปฏิบัติเรื่อง Backup จริง”
+ควรเตรียมเอกสารชั้นใดบ้าง</li>
+<li>เลือกเอกสาร 3 ฉบับที่หน่วยงานมีอยู่แล้ว
+และระบุว่าใช้ตอบมาตรฐานหรือเกณฑ์ใดได้บ้างตามตารางหัวข้อ 5.6</li>
+</ol>
 </section>
 </div>
 <div class="chapter p2">
@@ -2649,6 +2665,16 @@ Wazuh Manager ระดับจังหวัด และ NCSA Blacklist Dash
 <li>เริ่มจากงานที่ไม่ใช้งบ และเริ่มเก็บ Log ให้เร็วที่สุด</li>
 </ul>
 </section>
+<section id="คำถามทบทวน-3" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>CTAM+ ปี 2569 มีกี่ข้อ และคะแนน Dashboard แบ่งสัดส่วนอย่างไร</li>
+<li>ผลประเมิน CTAM+ ของโรงพยาบาลส่งผ่านใครบ้างก่อนถึงส่วนกลาง</li>
+<li>หน่วยงานมีงบประมาณจำกัดมาก ควรเริ่มทำข้อใดของ CTAM+ ก่อน</li>
+<li>ใช้ Checklist ภาคผนวก ก ตรวจหลักฐานของหน่วยงาน แล้วระบุ 3 ข้อที่ยังไม่มีหลักฐาน
+พร้อมผู้รับผิดชอบและกำหนดเสร็จ</li>
+</ol>
+</section>
 </div>
 <section class="part-page p3"><div class="pp-bg"></div><div class="pp-icon">🛡️</div><div class="pp-num">ภาค 3</div><div class="pp-title">ลงมือป้องกัน</div><div class="pp-en">Hands-on Protection</div><ul class="pp-list"><li><span class="pp-n">7</span><span class="pp-t">บัญชีทรัพย์สินและการบริหารความเสี่ยงไซเบอร์</span><span class="pp-i">🗂️</span></li><li><span class="pp-n">8</span><span class="pp-t">การยืนยันตัวตนและการจัดการสิทธิ์</span><span class="pp-i">🔐</span></li><li><span class="pp-n">9</span><span class="pp-t">ความปลอดภัยเครือข่ายและไฟร์วอลล์</span><span class="pp-i">🌐</span></li><li><span class="pp-n">10</span><span class="pp-t">ความปลอดภัยเครื่องลูกข่ายและเซิร์ฟเวอร์</span><span class="pp-i">🖥️</span></li><li><span class="pp-n">11</span><span class="pp-t">ความปลอดภัยเว็บแอปพลิเคชันและ WAF</span><span class="pp-i">🧱</span></li><li><span class="pp-n">12</span><span class="pp-t">ความปลอดภัยระบบ HIS และฐานข้อมูล</span><span class="pp-i">🗄️</span></li><li><span class="pp-n">13</span><span class="pp-t">การสำรองข้อมูล 3-2-1 และ BCP/DRP</span><span class="pp-i">💾</span></li></ul></section>
 <div class="chapter p3">
@@ -3120,6 +3146,17 @@ R01–R04</figcaption>
 ได้</li>
 </ul>
 </section>
+<section id="คำถามทบทวน-4" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ความเสี่ยงที่มีโอกาส 4 และผลกระทบ 5 ได้คะแนนเท่าไร
+และต้องจัดการหรือไม่ตามเกณฑ์ตัวอย่าง</li>
+<li>วิธีจัดการความเสี่ยง 4 แบบมีอะไรบ้าง ยกตัวอย่างในโรงพยาบาล</li>
+<li>ผลสแกน Nmap พบเซิร์ฟเวอร์ที่ไม่มีใครรู้ว่าเป็นของงานใด ควรทำอย่างไร</li>
+<li>เขียนความเสี่ยง 3 รายการของหน่วยงานลงทะเบียนความเสี่ยง
+ระบุคะแนนก่อนและหลังจัดการ</li>
+</ol>
+</section>
 </div>
 <div class="chapter p3">
 <div class="ch-open">
@@ -3521,6 +3558,18 @@ Matrix</li>
 <li>MFA ต้องครอบคลุม VPN, Network, Security, Hypervisor และ OS</li>
 <li>ทบทวนสิทธิ์ทุกไตรมาส และควบคุม Remote Access ของบริษัทภายนอก</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-5" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>นโยบายรหัสผ่านที่หนังสือแนะนำ กำหนดความยาวขั้นต่ำกี่ตัวอักษร
+และทำอะไรกับบัญชีที่ไม่ได้ใช้เกิน 90 วัน</li>
+<li>CTAM+ ข้อ 7 กำหนดให้ผู้ดูแลระบบใช้ MFA อย่างน้อยกี่จุด อะไรบ้าง</li>
+<li>พยาบาลย้ายจากหอผู้ป่วยไปงานการเงิน แต่ยังเข้าเมนูสั่งยาใน HIS ได้
+ปัญหาเกิดจากขั้นใดในวงจรบัญชีผู้ใช้ และแก้อย่างไร</li>
+<li>สำรวจว่าบัญชีผู้ดูแลระบบของหน่วยงานใช้ MFA แบบใดอยู่ และจะยกระดับขึ้นขั้นใดของภาพที่
+8.2</li>
+</ol>
 </section>
 </div>
 <div class="chapter p3">
@@ -4047,6 +4096,17 @@ Monitoring</h2>
 <li>Cloudflare Tunnel ช่วยให้ไม่ต้องเปิดพอร์ตขาเข้า</li>
 </ul>
 </section>
+<section id="คำถามทบทวน-6" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>หลัก Default Deny คืออะไร และทำไมต้องวาง Policy บล็อก Blacklist
+ไว้บนสุด</li>
+<li>เครือข่ายโรงพยาบาลควรแบ่ง VLAN อย่างน้อยกี่โซน อะไรบ้าง</li>
+<li>คู่มือเดิมให้ส่ง Alert จาก Firewall ผ่าน LINE Notify ตอนนี้ต้องทำอย่างไร</li>
+<li>ทบทวน Policy ของ Firewall หลัก หากฎที่เปิด Any-Any หรือไม่ได้ใช้
+และวางแผนปิด</li>
+</ol>
+</section>
 </div>
 <div class="chapter p3">
 <div class="ch-open">
@@ -4425,6 +4485,18 @@ GIMP, Thunderbird)</li>
 <li>Hardening พื้นฐาน + fail2ban + Host Firewall ทำได้ฟรี</li>
 <li>เครื่องมือแพทย์ที่แพตช์ไม่ได้ ให้แยกเครือข่ายและบันทึกการยอมรับความเสี่ยง</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-7" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ช่องโหว่ Critical ที่อยู่ใน CISA KEV บนระบบที่เปิดสู่อินเทอร์เน็ต ต้องแพตช์ภายในกี่วัน
+และถ้าเป็นระบบภายในล่ะ</li>
+<li>ถ้าแพตช์ไม่ได้เพราะผู้ผลิตยังไม่รับรอง ต้องทำอะไรแทน</li>
+<li>เครื่อง Ultrasound ใช้ Windows 7 และผู้ผลิตห้ามติดตั้งแอนติไวรัส
+ควรป้องกันอย่างไร</li>
+<li>ตรวจ Hardening เครื่องเซิร์ฟเวอร์ 1 เครื่องตาม Checklist หัวข้อ 10.3
+แล้วสรุปข้อที่ยังไม่ผ่าน</li>
+</ol>
 </section>
 </div>
 <div class="chapter p3">
@@ -4840,6 +4912,17 @@ DetectionOnly แล้วค่อยบล็อก</li>
 <li>เมื่อเว็บถูกเจาะ ต้องเก็บหลักฐาน แจ้งเหตุ หาจุดเข้า และกู้จากแหล่งที่สะอาด</li>
 </ul>
 </section>
+<section id="คำถามทบทวน-8" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ทำไมต้องเปิด ModSecurity ในโหมด DetectionOnly ก่อนเปิดบล็อก</li>
+<li>เว็บไซต์ที่เปิดสู่อินเทอร์เน็ตทุกเว็บต้องมีอะไรเป็นขั้นต่ำ</li>
+<li>ผู้ใช้แจ้งว่า Google แสดงผลค้นหาเว็บโรงพยาบาลเป็นข้อความเว็บพนัน
+แต่หน้าเว็บที่เปิดดูปกติ เกิดอะไรขึ้นได้บ้าง</li>
+<li>ตรวจเว็บไซต์ของหน่วยงานด้วยเครื่องมือตรวจ HTTPS และ Security Headers
+แล้วสรุปสิ่งที่ต้องแก้</li>
+</ol>
+</section>
 </div>
 <div class="chapter p3">
 <div class="ch-open">
@@ -5086,6 +5169,17 @@ DPA/NDA</label></li>
 <li>Audit Log ทำให้ตรวจสอบการละเมิดได้ และเป็นหลักฐานตาม PDPA</li>
 <li>การส่งออกข้อมูลต้องมีขั้นตอน อนุมัติ และลดข้อมูลให้น้อยที่สุด</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-9" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ทำไมไม่ควรให้เครื่องลูกข่ายทุกเครื่องเชื่อมต่อฐานข้อมูล HIS
+โดยตรงด้วยบัญชีเดียวกัน</li>
+<li>Audit Log ของ HIS ใช้ทำอะไรในมุม PDPA</li>
+<li>หน่วยงานภายนอกขอข้อมูลผู้ป่วยเบาหวานทั้งหมดเพื่อทำวิจัย ควรมีขั้นตอนอย่างไร</li>
+<li>ตรวจรายชื่อบัญชีในฐานข้อมูล HIS ของหน่วยงาน มีบัญชีใดที่อนุญาตจากทุก Host
+หรือมีสิทธิ์เกินหน้าที่</li>
+</ol>
 </section>
 </div>
 <div class="chapter p3">
@@ -5524,6 +5618,17 @@ Offline/Immutable</li>
 <li>BCP = ให้บริการต่ออย่างไร, DRP = กู้ระบบอย่างไร ต้องซ้อมสถานการณ์ Ransomware
 อย่างน้อยปีละครั้ง</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-10" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>อธิบายกฎ 3-2-1-1-0 ทีละตัวเลข</li>
+<li>RPO กับ RTO ต่างกันอย่างไร</li>
+<li>Ransomware เข้ารหัส NAS ที่เก็บ Backup ไปด้วย เพราะ NAS
+ต่ออยู่ในโดเมนเดียวกับเครื่องอื่น ควรออกแบบใหม่อย่างไร</li>
+<li>ทดสอบกู้คืนฐานข้อมูล HIS ลงเครื่องทดสอบ 1 ครั้ง แล้วบันทึกเวลาที่ใช้เทียบกับ RTO
+ที่ตั้งไว้</li>
+</ol>
 </section>
 </div>
 <section class="part-page p4"><div class="pp-bg"></div><div class="pp-icon">📡</div><div class="pp-num">ภาค 4</div><div class="pp-title">ตรวจจับและตอบสนอง</div><div class="pp-en">Detect &amp; Respond</div><ul class="pp-list"><li><span class="pp-n">14</span><span class="pp-t">Log Management และ SIEM ด้วย Wazuh</span><span class="pp-i">📡</span></li><li><span class="pp-n">15</span><span class="pp-t">Threat Intelligence ด้วย NCSA Blacklist</span><span class="pp-i">🛰️</span></li><li><span class="pp-n">16</span><span class="pp-t">Vulnerability Assessment และ Penetration Testing</span><span class="pp-i">🔎</span></li><li><span class="pp-n">17</span><span class="pp-t">การรับมือเหตุการณ์และการแจ้งเหตุ</span><span class="pp-i">🚨</span></li></ul></section>
@@ -6015,6 +6120,17 @@ Critical</td>
 <li>SIEM มีค่าเมื่อมีคนดูและตอบสนองเท่านั้น</li>
 </ul>
 </section>
+<section id="คำถามทบทวน-11" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>Log ที่ CTAM+ ข้อ 9 ต้องการมี 6 ประเภทอะไรบ้าง และต้องเก็บอย่างน้อยกี่วัน</li>
+<li>ทำไมทุกอุปกรณ์ต้องตั้งเวลาจาก NTP เดียวกัน</li>
+<li>Wazuh แจ้ง Alert ระดับ 12 ว่ามี Login ผิดซ้ำจำนวนมากที่ VPN จาก IP ต่างประเทศ
+ควรทำอะไรต่อ</li>
+<li>ทำ Lab ทดสอบกฎ Wazuh 1 ด้าน (เช่น Login ผิดซ้ำ) แล้วเก็บภาพหน้าจอ Alert
+เป็นหลักฐาน</li>
+</ol>
+</section>
 </div>
 <div class="chapter p4">
 <div class="ch-open">
@@ -6211,6 +6327,17 @@ Wazuh ได้ในที่เดียว และมีเครื่อ�
 <li>ใช้ Threat Intelligence ทั้งเชิงป้องกัน (บล็อก) และเชิงตรวจจับ (ค้น Log
 ย้อนหลัง)</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-12" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>Threat Intelligence ใช้ได้ 2 แบบอะไรบ้าง</li>
+<li>ทำไมไม่ควรนำ IOC จากทุกแหล่งไปบล็อกทันทีโดยไม่ตรวจ</li>
+<li>ค้น Log ย้อนหลังแล้วพบว่าเครื่องงานการเงินเคยเชื่อมต่อ IP ใน NCSA Blacklist เมื่อ
+3 วันก่อน ควรทำอย่างไร</li>
+<li>ตั้งค่าดึง NCSA Blacklist Feed เข้า Firewall หรือ Wazuh ของหน่วยงาน
+และกำหนดรอบอัปเดต</li>
+</ol>
 </section>
 </div>
 <div class="chapter p4">
@@ -6562,6 +6689,17 @@ DoS, Social Engineering ต่อผู้ป่วย) ช่วงเวลา
 <li>ช่องโหว่ที่อยู่ใน CISA KEV และระบบที่เปิดสู่อินเทอร์เน็ตต้องแก้ก่อน</li>
 <li>งานยังไม่จบจนกว่าจะ Rescan ยืนยันว่าปิดแล้ว</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-13" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>VA กับ Pentest ต่างกันอย่างไร และควรทำบ่อยแค่ไหน</li>
+<li>ช่องโหว่แบบใดต้องแก้ก่อน</li>
+<li>ระหว่างการทดสอบตาม OP01 ระบบ HIS ช้าลงมาก ควรทำอย่างไร
+และควรป้องกันอย่างไรตั้งแต่ก่อนทดสอบ</li>
+<li>สแกน VA ระบบ 1 ระบบที่อยู่ในทะเบียนทรัพย์สิน
+แล้วนำผลเข้าทะเบียนช่องโหว่พร้อมกำหนดแก้ไข</li>
+</ol>
 </section>
 </div>
 <div class="chapter p4">
@@ -7023,7 +7161,7 @@ Custody)</h3>
 ผู้บริหาร DPO และฝ่ายการพยาบาลไว้ในที่เดียว ประชุมสรุปทุก 2–4 ชั่วโมง</li>
 </ul>
 <p>แม่แบบรายงานสถานการณ์ (SITREP) การสื่อสารนอกช่องทางปกติ
-และตารางว่าต้องแจ้งใครเมื่อใดตามระดับเหตุ อยู่ในบทที่ 24.5</p>
+และตารางว่าต้องแจ้งใครเมื่อใดตามระดับเหตุ อยู่ในหัวข้อ 24.5</p>
 <h2 id="ซอมแผนแบบ-tabletop-2-ชวโมง"><span class="n">17.11</span>
 ซ้อมแผนแบบ Tabletop (2 ชั่วโมง)</h2>
 <p><strong>สถานการณ์ตัวอย่าง</strong>: “07:30 วันจันทร์
@@ -7096,6 +7234,18 @@ Offline</li>
 (ถ้าเกี่ยวกับข้อมูลส่วนบุคคล)</li>
 <li>ซ้อมแผนปีละครั้ง และทบทวนบทเรียนทุกเหตุการณ์</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-14" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>เมื่อเกิดเหตุภัยไซเบอร์ ต้องแจ้ง Health CERT และ สคส. ภายในกี่ชั่วโมง
+นับจากเมื่อใด</li>
+<li>ทำไม Playbook Ransomware จึงห้ามปิดเครื่องที่ติดทันที</li>
+<li>บัญชีอีเมลของแพทย์ถูกยึดและใช้ส่งฟิชชิงไปหาเพื่อนร่วมงาน 50 คน ควรจัด Priority ใด
+และใช้การ์ดใด</li>
+<li>จัด Tabletop 2 ชั่วโมงด้วยการ์ด Playbook 1 ใบ
+แล้วบันทึกสิ่งที่ทีมทำไม่ได้ตามการ์ด</li>
+</ol>
 </section>
 </div>
 <section class="part-page p5"><div class="pp-bg"></div><div class="pp-icon">🤝</div><div class="pp-num">ภาค 5</div><div class="pp-title">คนและองค์กร</div><div class="pp-en">People &amp; Organization</div><ul class="pp-list"><li><span class="pp-n">18</span><span class="pp-t">Security Awareness สำหรับบุคลากรสาธารณสุข</span><span class="pp-i">🧑‍⚕️</span></li><li><span class="pp-n">19</span><span class="pp-t">ธรรมาภิบาลและแผนยกระดับระดับจังหวัด/เขต</span><span class="pp-i">🧩</span></li></ul></section>
@@ -7394,6 +7544,17 @@ Outlook/Gmail</li>
 <li>วัดผลด้วย Report Rate และร้อยละผู้ผ่านอบรม ≥ 80%</li>
 <li>สร้างวัฒนธรรมแจ้งเหตุโดยไม่กล่าวโทษ</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-15" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>คำถาม 4 ข้อก่อนคลิกมีอะไรบ้าง</li>
+<li>ทำไม Report Rate จึงเป็นตัวชี้วัดที่ดีกว่าอัตราการคลิกเพียงอย่างเดียว</li>
+<li>เจ้าหน้าที่เผลอกรอกรหัสผ่านในเว็บปลอมแต่กลัวถูกลงโทษจึงไม่แจ้ง
+หัวหน้างานควรสื่อสารอย่างไร</li>
+<li>ออกแบบการอบรม 15 นาทีสำหรับเจ้าหน้าที่จุดลงทะเบียน โดยใช้ภาพที่ 18.2 และกฎทอง
+10 ข้อ</li>
+</ol>
 </section>
 </div>
 <div class="chapter p5">
@@ -7804,6 +7965,15 @@ Vendor + สัญญา DPA/NDA, Roadmap ที่ผู้บริหาร�
 <li>สสจ./เขตเป็นศูนย์กลางบริการร่วม ช่วยหน่วยบริการขนาดเล็กได้คุ้มค่าที่สุด</li>
 <li>ทำตาม Roadmap 12 เดือน และรายงานผู้บริหาร 1 หน้าทุกไตรมาส</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-16" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ใครเป็นเจ้าของความเสี่ยงไซเบอร์ของหน่วยงาน และใครเป็นผู้ขับเคลื่อนงาน</li>
+<li>สัญญากับ Vendor ผู้ดูแล HIS ควรมีข้อกำหนดด้านความปลอดภัยอะไรบ้าง</li>
+<li>รพ.สต. 20 แห่งในอำเภอไม่มีนักวิชาการคอมพิวเตอร์ สสจ. ควรช่วยอย่างไร</li>
+<li>ร่างรายงานผู้บริหาร 1 หน้าของไตรมาสนี้ตามแม่แบบในบทนี้</li>
+</ol>
 </section>
 </div>
 <section class="part-page p6"><div class="pp-bg"></div><div class="pp-icon">🌍</div><div class="pp-num">ภาค 6</div><div class="pp-title">สุขภาพดิจิทัลยุคใหม่และแนวทางสากล</div><div class="pp-en">Digital Health &amp; Global Practice</div><ul class="pp-list"><li><span class="pp-n">20</span><span class="pp-t">มาตรฐานสากลและบทเรียนต่างประเทศสำหรับสุขภาพดิจิทัล</span><span class="pp-i">🌍</span></li><li><span class="pp-n">21</span><span class="pp-t">ความปลอดภัยอีเมล โดเมน และ Cloud Workspace</span><span class="pp-i">✉️</span></li><li><span class="pp-n">22</span><span class="pp-t">ความปลอดภัยอุปกรณ์การแพทย์ PACS การเชื่อมต่อ HL7 และระบบอาคาร</span><span class="pp-i">🩻</span></li></ul></section>
@@ -8245,6 +8415,17 @@ CTAM+</figcaption>
 ต้องออกแบบความปลอดภัยตั้งแต่เริ่ม และควบคุมผ่านสัญญากับผู้ให้บริการ</li>
 </ul>
 </section>
+<section id="คำถามทบทวน-17" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>HICP ของสหรัฐฯ ระบุภัยหลักของภาคสุขภาพ 5 ข้ออะไรบ้าง</li>
+<li>Technical Volume 1 กับ 2 ของ HICP ต่างกันอย่างไร</li>
+<li>โรงพยาบาลจะเปิดบริการ Telemedicine ผ่านแอปของบริษัทเอกชน
+ควรตรวจอะไรก่อนลงนาม</li>
+<li>ใช้ตารางเทียบกรอบมาตรฐานหัวข้อ 20.7 เลือกงาน 3 อย่างที่ทำแล้วตอบได้ทั้ง CTAM+
+และ NIST CSF</li>
+</ol>
+</section>
 </div>
 <div class="chapter p6">
 <div class="ch-open">
@@ -8591,6 +8772,16 @@ HTTPS ไม่ให้หมดอายุ</h2>
 และควบคุมการแชร์</li>
 <li>โดเมน DNS ใบรับรอง และบัญชีโซเชียลเป็นทรัพย์สินที่ต้องอยู่ในทะเบียนและมีเจ้าของ</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-18" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>SPF, DKIM และ DMARC ทำหน้าที่ต่างกันอย่างไร</li>
+<li>ทำไมไม่ควรตั้ง DMARC เป็น p=reject ตั้งแต่วันแรก</li>
+<li>โดเมนย่อยของโครงการเก่าไม่ได้ใช้ส่งอีเมลแล้ว ควรตั้งค่า DNS อย่างไร</li>
+<li>ตรวจระเบียน SPF และ DMARC ของโดเมนหน่วยงาน แล้วระบุว่าอยู่ขั้นใดของแผน 12
+สัปดาห์</li>
+</ol>
 </section>
 </div>
 <div class="chapter p6">
@@ -9034,7 +9225,7 @@ OT (อ้างอิง NIST SP 800-82 Rev. 3 และ IEC 62443)</h3>
 <li><strong>แยกโซน OT</strong> เป็น VLAN เฉพาะ ไม่ให้ออกอินเทอร์เน็ตโดยตรง
 และให้ Firewall อนุญาตเฉพาะเครื่องที่ต้องคุยกันจริง</li>
 <li><strong>รีโมตผ่านช่องทางเดียว</strong> คือ ZTNA หรือ VPN ที่มี MFA
-เปิดเฉพาะเวลานัด และบันทึกทุกครั้ง (บทที่ 25.6)</li>
+เปิดเฉพาะเวลานัด และบันทึกทุกครั้ง (หัวข้อ 25.6)</li>
 <li><strong>เปลี่ยนรหัสผ่านเริ่มต้น</strong> ของทุกอุปกรณ์ รวมถึงการ์ดจัดการ UPS, NVR
 และแผง BMS</li>
 <li><strong>ห้ามสแกนช่องโหว่แบบรุกแรงกับอุปกรณ์ OT</strong>
@@ -9168,6 +9359,17 @@ OT (อ้างอิง NIST SP 800-82 Rev. 3 และ IEC 62443)</h3>
 <li>ระบบอาคารและ OT เช่น HVAC ก๊าซทางการแพทย์ CCTV และไฟฟ้าสำรอง
 ต้องอยู่ในทะเบียน แยกโซน และมีวิธีควบคุมด้วยมือ</li>
 </ul>
+</section>
+<section id="คำถามทบทวน-19" class="box-h exercise">
+<h2 class="box-h">คำถามทบทวน</h2>
+<ol type="1">
+<li>ทำไม PACS/DICOM และ HL7 จึงห้ามเปิดสู่อินเทอร์เน็ต</li>
+<li>ใน TOR จัดซื้อเครื่องมือแพทย์ ควรขอเอกสารความปลอดภัยอะไรจากผู้ขาย</li>
+<li>ระบบควบคุมความดันห้องแยกโรคเชื่อมกับเครือข่ายสำนักงาน และใช้รหัสผ่านเริ่มต้นของผู้ผลิต
+ควรแก้อย่างไร</li>
+<li>ร่วมกับงานวิศวกรรมการแพทย์ทำทะเบียนอุปกรณ์ที่เชื่อมเครือข่าย 10 เครื่องแรก ระบุ OS
+ผู้ดูแล และโซนเครือข่าย</li>
+</ol>
 </section>
 </div>
 <section class="part-page p7"><div class="pp-bg"></div><div class="pp-icon">🎯</div><div class="pp-num">ภาค 7</div><div class="pp-title">รู้เขารู้เรา: ผู้โจมตี การประสานข้อมูล และเทคโนโลยีใหม่</div><div class="pp-en">Know Your Adversary &amp; Next-Gen Defense</div><ul class="pp-list"><li><span class="pp-n">23</span><span class="pp-t">ผู้โจมตีเจาะระบบโรงพยาบาลอย่างไร: รู้ทันยุทธวิธีเพื่อป้องกัน</span><span class="pp-i">🥷</span></li><li><span class="pp-n">24</span><span class="pp-t">ระบบโฟลว์การประสานข้อมูลและแบ่งปันความรู้ด้านไซเบอร์</span><span class="pp-i">🔗</span></li><li><span class="pp-n">25</span><span class="pp-t">เทคโนโลยีใหม่ที่ช่วยป้องกันการเจาะระบบ</span><span class="pp-i">🚀</span></li></ul></section>
@@ -9891,7 +10093,7 @@ Agent (หรือใน Agent Group ที่ Manager)</p>
 <span id="cb103-36"><a href="#cb103-36" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">group</span>&gt;</span></code></pre></div>
 <div class="callout tip">
 <p>ทดสอบกฎด้วย <code>/var/ossec/bin/wazuh-logtest</code> ก่อนใช้งานจริง
-และตั้งให้การแจ้งเตือนระดับ 12 ขึ้นไปส่งถึงผู้รับผิดชอบทันที (บทที่ 14.9)
+และตั้งให้การแจ้งเตือนระดับ 12 ขึ้นไปส่งถึงผู้รับผิดชอบทันที (หัวข้อ 14.9)
 ชื่อฟิลด์และกลุ่มกฎอาจต่างกันตามเวอร์ชันของ Wazuh ให้ตรวจจาก Alert จริงในหน้า
 Discover</p>
 </div>
@@ -10098,7 +10300,7 @@ CISA KEV หรือมีคำเตือนจาก สกมช./Health C
 ทำได้ทันทีโดยไม่ต้องลงทุนเพิ่ม</li>
 </ul>
 </section>
-<section id="คำถามทบทวน-2" class="box-h exercise">
+<section id="คำถามทบทวน-20" class="box-h exercise">
 <h2 class="box-h">คำถามทบทวน</h2>
 <ol type="1">
 <li>อธิบายว่าทำไม “ผู้ป้องกันตรวจพบขั้นเดียวก็ตัดวงจรได้” พร้อมยกตัวอย่างจากกรณีจำลอง 14
@@ -11150,7 +11352,7 @@ CISA KEV</li>
 <li>ระบบจัดการความรู้และชุมชนนักปฏิบัติทำให้ความรู้ไม่หายไปเมื่อคนย้ายงาน</li>
 </ul>
 </section>
-<section id="คำถามทบทวน-3" class="box-h exercise">
+<section id="คำถามทบทวน-21" class="box-h exercise">
 <h2 class="box-h">คำถามทบทวน</h2>
 <ol type="1">
 <li>วาดผังเครือข่ายประสานงานด้านไซเบอร์ของจังหวัดท่าน
@@ -11523,14 +11725,14 @@ DNS</td>
 </tr>
 <tr class="even">
 <td>ช่องโหว่ KEV ใหม่ตรงทะเบียน</td>
-<td>สคริปต์บทที่ 24.12 → สร้างคำเตือน → ส่งผู้รับผิดชอบ</td>
+<td>สคริปต์หัวข้อ 24.12 → สร้างคำเตือน → ส่งผู้รับผิดชอบ</td>
 <td>ยืนยันรุ่นจริงก่อนส่ง</td>
 </tr>
 </tbody>
 </table>
 <p>เครื่องมือโอเพนซอร์สที่ใช้ได้ เช่น <strong>Shuffle</strong> (SOAR),
 <strong>TheHive + Cortex</strong> (จัดการเคสและวิเคราะห์อัตโนมัติ) และ Active
-Response ของ Wazuh (บทที่ 14.7) เริ่มจากงานที่ทำซ้ำบ่อยและผลผิดพลาดไม่ร้ายแรงก่อน
+Response ของ Wazuh (หัวข้อ 14.7) เริ่มจากงานที่ทำซ้ำบ่อยและผลผิดพลาดไม่ร้ายแรงก่อน
 ส่วนการกระทำที่กระทบบริการผู้ป่วยต้องมีคนอนุมัติเสมอ (Human-in-the-loop)</p>
 <h2 id="sase-sse-และ-ztna-เลกเปด-vpn-ใหทกคน"><span class="n">25.6</span>
 SASE, SSE และ ZTNA: เลิกเปิด VPN ให้ทุกคน</h2>
@@ -11664,7 +11866,7 @@ Canary Token จากบริการภายนอกจะส่งข้�
 ปีละครั้งตรงที่ทำต่อเนื่องและเน้นสิ่งที่ผู้โจมตีใช้ได้จริง</li>
 <li><strong>Breach and Attack Simulation (BAS)</strong>:
 ระบบจำลองการโจมตีอัตโนมัติเพื่อตรวจว่ามาตรการป้องกันทำงานจริง (แนวคิดเดียวกับ Purple
-Team บทที่ 23.10)</li>
+Team หัวข้อ 23.10)</li>
 </ul>
 <h2 id="ai-ดาบสองคม"><span class="n">25.9</span> AI: ดาบสองคม</h2>
 <h3 id="ai-ชวยฝายปองกน">AI ช่วยฝ่ายป้องกัน</h3>
@@ -11926,7 +12128,7 @@ Hunting รายสัปดาห์</td>
 เพราะข้อมูลสุขภาพต้องปลอดภัยไปอีกหลายสิบปี</li>
 </ul>
 </section>
-<section id="คำถามทบทวน-4" class="box-h exercise">
+<section id="คำถามทบทวน-22" class="box-h exercise">
 <h2 class="box-h">คำถามทบทวน</h2>
 <ol type="1">
 <li>ใช้คำถาม 6 ข้อในหัวข้อ 25.1 ประเมินเทคโนโลยี 1
@@ -12614,8 +12816,8 @@ Register)</h3>
 <h2 id="ภาคผนวก-จ-อภธานศพท">ภาคผนวก จ อภิธานศัพท์</h2>
 <table>
 <colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
+<col style="width: 43%" />
+<col style="width: 56%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -12629,8 +12831,17 @@ Register)</h3>
 <td>การยืนยันตัวตนหลายปัจจัย เช่น รหัสผ่าน + รหัส OTP</td>
 </tr>
 <tr class="even">
+<td><strong>ACL</strong></td>
+<td>รายการควบคุมการเข้าถึง กำหนดว่าผู้ใช้หรือเครื่องใดเข้าถึงทรัพยากรใดได้</td>
+</tr>
+<tr class="odd">
 <td><strong>API</strong></td>
 <td>ช่องทางให้โปรแกรมแลกเปลี่ยนข้อมูลกัน</td>
+</tr>
+<tr class="even">
+<td><strong>ASM / CTEM</strong></td>
+<td>การสำรวจพื้นผิวการโจมตีจากมุมมองภายนอกอย่างต่อเนื่อง /
+การบริหารการเปิดรับภัยแบบเป็นรอบ ตั้งแต่สำรวจจนถึงยืนยันการแก้ไข</td>
 </tr>
 <tr class="odd">
 <td><strong>ATT&amp;CK (MITRE)</strong></td>
@@ -12667,33 +12878,72 @@ Register)</h3>
 <td>โครงสร้างพื้นฐานสำคัญทางสารสนเทศ</td>
 </tr>
 <tr class="odd">
+<td><strong>CISA</strong></td>
+<td>หน่วยงานความมั่นคงปลอดภัยไซเบอร์และโครงสร้างพื้นฐานของสหรัฐฯ ผู้ดูแลรายการ
+KEV</td>
+</tr>
+<tr class="even">
 <td><strong>CISO / CIO / DPO</strong></td>
 <td>ผู้บริหารความปลอดภัยสารสนเทศ / ผู้บริหารเทคโนโลยีสารสนเทศ /
 เจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคล</td>
 </tr>
+<tr class="odd">
+<td><strong>CMS</strong></td>
+<td>ระบบจัดการเนื้อหาเว็บไซต์ เช่น WordPress หรือ Joomla ต้องอัปเดตทั้งตัวระบบและ
+Plugin</td>
+</tr>
 <tr class="even">
+<td><strong>CSF (NIST)</strong></td>
+<td>กรอบความมั่นคงปลอดภัยไซเบอร์ของ NIST รุ่น 2.0 มี 6 ฟังก์ชัน: Govern, Identify,
+Protect, Detect, Respond, Recover</td>
+</tr>
+<tr class="odd">
 <td><strong>CSIRT / CERT</strong></td>
 <td>ทีมรับมือเหตุการณ์ความมั่นคงปลอดภัยคอมพิวเตอร์</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>CSOC / SOC</strong></td>
 <td>ศูนย์ปฏิบัติการเฝ้าระวังความปลอดภัย</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>CTAM / CTAM+</strong></td>
 <td>เกณฑ์ประเมินความปลอดภัยไซเบอร์ของกระทรวงสาธารณสุข</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>CVE / CVSS</strong></td>
 <td>รหัสอ้างอิงช่องโหว่สากล / คะแนนความรุนแรงช่องโหว่</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Deception / Honeypot</strong></td>
 <td>การวางกับดัก เช่น บัญชี ไฟล์ หรือเครื่องล่อ เพื่อให้ผู้บุกรุกเผยตัว</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Defacement</strong></td>
 <td>การเปลี่ยนหน้าเว็บไซต์โดยผู้บุกรุก</td>
+</tr>
+<tr class="odd">
+<td><strong>DICOM</strong></td>
+<td>มาตรฐานรูปแบบและการรับส่งภาพทางการแพทย์ ใช้ในระบบ PACS</td>
+</tr>
+<tr class="even">
+<td><strong>DMARC / DKIM / SPF</strong></td>
+<td>ระเบียน DNS ที่ช่วยยืนยันว่าอีเมลมาจากผู้ส่งที่โดเมนอนุญาต
+และบอกผู้รับว่าจะทำอย่างไรกับอีเมลปลอม (บทที่ 21)</td>
+</tr>
+<tr class="odd">
+<td><strong>DMZ</strong></td>
+<td>โซนเครือข่ายสำหรับเซิร์ฟเวอร์ที่ให้บริการภายนอก เช่น เว็บไซต์
+แยกจากเครือข่ายภายใน</td>
+</tr>
+<tr class="even">
+<td><strong>DNS / DNSSEC</strong></td>
+<td>ระบบแปลงชื่อโดเมนเป็น IP Address /
+ส่วนขยายที่ลงลายมือชื่อดิจิทัลเพื่อป้องกันการปลอมคำตอบ DNS</td>
+</tr>
+<tr class="odd">
+<td><strong>DPA / DSA</strong></td>
+<td>ข้อตกลงการประมวลผลข้อมูลส่วนบุคคลกับผู้ประมวลผล /
+ข้อตกลงแบ่งปันข้อมูลกับหน่วยงานอื่น</td>
 </tr>
 <tr class="even">
 <td><strong>Dwell Time</strong></td>
@@ -12704,40 +12954,87 @@ Register)</h3>
 <td>ระบบตรวจจับและตอบสนองภัยที่เครื่องปลายทาง / ข้ามหลายแหล่ง</td>
 </tr>
 <tr class="even">
+<td><strong>ENISA</strong></td>
+<td>หน่วยงานความมั่นคงปลอดภัยไซเบอร์ของสหภาพยุโรป</td>
+</tr>
+<tr class="odd">
 <td><strong>EOL</strong></td>
 <td>สิ้นสุดการสนับสนุนจากผู้ผลิต ไม่มี Patch อีก</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>FHIR</strong></td>
 <td>มาตรฐาน HL7 สำหรับแลกเปลี่ยนข้อมูลสุขภาพผ่าน API</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>FIM</strong></td>
 <td>การตรวจการเปลี่ยนแปลงไฟล์</td>
+</tr>
+<tr class="even">
+<td><strong>Firewall / NGFW</strong></td>
+<td>อุปกรณ์ควบคุมการรับส่งข้อมูลระหว่างโซนเครือข่าย /
+ไฟร์วอลล์รุ่นใหม่ที่ตรวจถึงระดับแอปพลิเคชันและมี IPS ในตัว</td>
 </tr>
 <tr class="odd">
 <td><strong>GDCC</strong></td>
 <td>คลาวด์กลางภาครัฐ</td>
 </tr>
 <tr class="even">
+<td><strong>GPO</strong></td>
+<td>Group Policy Object ชุดนโยบายที่ใช้ตั้งค่าเครื่อง Windows
+ในโดเมนจากส่วนกลาง</td>
+</tr>
+<tr class="odd">
+<td><strong>HAIT</strong></td>
+<td>การรับรองคุณภาพด้านไอทีของโรงพยาบาล (Hospital Accreditation for
+Information Technology)</td>
+</tr>
+<tr class="even">
+<td><strong>HDC</strong></td>
+<td>Health Data Center คลังข้อมูลสุขภาพของกระทรวงสาธารณสุข รับข้อมูลมาตรฐาน 43
+แฟ้มจากหน่วยบริการ</td>
+</tr>
+<tr class="odd">
+<td><strong>HHS / HICP</strong></td>
+<td>กระทรวงสาธารณสุขและบริการมนุษย์ของสหรัฐฯ / เอกสาร Health Industry
+Cybersecurity Practices ภายใต้โครงการ 405(d)</td>
+</tr>
+<tr class="even">
 <td><strong>HIS</strong></td>
 <td>ระบบสารสนเทศโรงพยาบาล</td>
 </tr>
 <tr class="odd">
+<td><strong>HL7</strong></td>
+<td>มาตรฐานรับส่งข้อมูลระหว่างระบบสุขภาพ เช่น HIS กับ LIS ฉบับ v2
+ที่ใช้แพร่หลายมักไม่เข้ารหัส</td>
+</tr>
+<tr class="even">
+<td><strong>HTTPS / TLS</strong></td>
+<td>การเข้ารหัสการสื่อสารบนเว็บ ควรใช้ TLS 1.2 ขึ้นไป ส่วน SSL รุ่นเก่าเลิกใช้แล้ว</td>
+</tr>
+<tr class="odd">
+<td><strong>IDS / IPS</strong></td>
+<td>ระบบตรวจจับ / ป้องกันการบุกรุกทางเครือข่าย</td>
+</tr>
+<tr class="even">
 <td><strong>IOC</strong></td>
 <td>ตัวบ่งชี้การถูกโจมตี เช่น IP, Domain, Hash</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>IoMT</strong></td>
 <td>อุปกรณ์การแพทย์ที่เชื่อมเครือข่าย</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>KEV</strong></td>
 <td>รายการช่องโหว่ที่ถูกใช้โจมตีจริง (ของ CISA)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Kill Chain</strong></td>
 <td>ลำดับขั้นของการโจมตีตั้งแต่สำรวจเป้าหมายจนบรรลุผล</td>
+</tr>
+<tr class="even">
+<td><strong>LAPS</strong></td>
+<td>ระบบของ Microsoft ที่สุ่มและหมุนรหัสผ่าน Administrator
+ของแต่ละเครื่องไม่ให้ซ้ำกัน</td>
 </tr>
 <tr class="odd">
 <td><strong>Least Privilege</strong></td>
@@ -12757,25 +13054,76 @@ Register)</h3>
 <td>บริการเฝ้าระวังและตอบสนองโดยผู้เชี่ยวชาญภายนอกตลอด 24 ชั่วโมง</td>
 </tr>
 <tr class="odd">
+<td><strong>MDS2</strong></td>
+<td>แบบเปิดเผยข้อมูลความปลอดภัยของเครื่องมือแพทย์ที่ผู้ผลิตจัดทำ ใช้ประกอบการจัดซื้อ</td>
+</tr>
+<tr class="even">
+<td><strong>MISP</strong></td>
+<td>แพลตฟอร์มโอเพนซอร์สสำหรับเก็บและแบ่งปันข้อมูลภัยคุกคาม</td>
+</tr>
+<tr class="odd">
 <td><strong>MTTD / MTTR</strong></td>
 <td>เวลาเฉลี่ยในการตรวจพบ / ในการแก้ไขเหตุ</td>
+</tr>
+<tr class="even">
+<td><strong>NAS</strong></td>
+<td>อุปกรณ์จัดเก็บข้อมูลที่ต่อกับเครือข่าย มักใช้เก็บ Backup จึงต้องแยกจากโดเมน</td>
+</tr>
+<tr class="odd">
+<td><strong>NCSA Blacklist Feed</strong></td>
+<td>รายการ IP โดเมน และค่าแฮชที่ สกมช. รวบรวมและเผยแพร่ให้ใช้ฟรี (บทที่ 15)</td>
 </tr>
 <tr class="even">
 <td><strong>NDR</strong></td>
 <td>ระบบตรวจจับภัยจากการวิเคราะห์ทราฟฟิกเครือข่าย</td>
 </tr>
 <tr class="odd">
+<td><strong>NIS2</strong></td>
+<td>ระเบียบความมั่นคงปลอดภัยไซเบอร์ของสหภาพยุโรปฉบับปรับปรุง ครอบคลุมภาคสุขภาพ</td>
+</tr>
+<tr class="even">
+<td><strong>NIST</strong></td>
+<td>สถาบันมาตรฐานและเทคโนโลยีแห่งชาติของสหรัฐฯ ผู้ออก CSF และเอกสารชุด SP
+800</td>
+</tr>
+<tr class="odd">
+<td><strong>NTP</strong></td>
+<td>โปรโตคอลตั้งเวลาให้ทุกอุปกรณ์ตรงกัน จำเป็นต่อการเทียบ Log จากหลายแหล่ง</td>
+</tr>
+<tr class="even">
+<td><strong>NVR</strong></td>
+<td>เครื่องบันทึกภาพกล้องวงจรปิดผ่านเครือข่าย</td>
+</tr>
+<tr class="odd">
+<td><strong>OP01</strong></td>
+<td>แบบขอรับการทดสอบความมั่นคงปลอดภัยของระบบเครื่องแม่ข่ายและเว็บไซต์จาก
+ศปช./สกมช.</td>
+</tr>
+<tr class="even">
 <td><strong>OT</strong></td>
 <td>เทคโนโลยีปฏิบัติการ ระบบที่ควบคุมอุปกรณ์ทางกายภาพ เช่น ระบบอาคาร ไฟฟ้าสำรอง
 ก๊าซทางการแพทย์</td>
 </tr>
+<tr class="odd">
+<td><strong>OWASP</strong></td>
+<td>โครงการชุมชนด้านความปลอดภัยเว็บ ผู้จัดทำ OWASP Top 10 และ Core Rule Set
+(CRS) สำหรับ ModSecurity</td>
+</tr>
 <tr class="even">
+<td><strong>PACS</strong></td>
+<td>ระบบจัดเก็บและส่งภาพทางการแพทย์ เช่น ภาพเอกซเรย์ CT และ MRI</td>
+</tr>
+<tr class="odd">
 <td><strong>PAM</strong></td>
 <td>การบริหารบัญชีสิทธิ์สูง</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Passkey / FIDO2</strong></td>
 <td>การยืนยันตัวตนด้วยกุญแจเข้ารหัสที่ผูกกับโดเมนจริง ต้านฟิชชิงได้</td>
+</tr>
+<tr class="odd">
+<td><strong>PDPA</strong></td>
+<td>พระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562</td>
 </tr>
 <tr class="even">
 <td><strong>Pentest</strong></td>
@@ -12799,8 +13147,17 @@ Register)</h3>
 <td>การแฝงข้อมูลให้ระบุตัวบุคคลไม่ได้โดยไม่มีข้อมูลเพิ่ม</td>
 </tr>
 <tr class="odd">
+<td><strong>RACI</strong></td>
+<td>ตารางบทบาท: ผู้ลงมือทำ (Responsible) ผู้รับผิดชอบสุดท้าย (Accountable)
+ผู้ให้คำปรึกษา (Consulted) และผู้ได้รับแจ้ง (Informed)</td>
+</tr>
+<tr class="even">
 <td><strong>Ransomware</strong></td>
 <td>มัลแวร์เข้ารหัสไฟล์เพื่อเรียกค่าไถ่</td>
+</tr>
+<tr class="odd">
+<td><strong>RDP</strong></td>
+<td>โปรโตคอลควบคุมเครื่อง Windows ระยะไกล ห้ามเปิดสู่อินเทอร์เน็ตโดยตรง</td>
 </tr>
 <tr class="even">
 <td><strong>ROPA</strong></td>
@@ -12827,12 +13184,30 @@ Register)</h3>
 <td>รายงานสถานการณ์ที่ส่งเป็นรอบระหว่างเกิดเหตุ</td>
 </tr>
 <tr class="even">
+<td><strong>SLA</strong></td>
+<td>ข้อตกลงระดับบริการ เช่น เวลาตอบสนองและเวลาแก้ไขที่ Vendor ต้องทำได้</td>
+</tr>
+<tr class="odd">
+<td><strong>SMB</strong></td>
+<td>โปรโตคอลแชร์ไฟล์ของ Windows รุ่น SMBv1 มีช่องโหว่ร้ายแรงที่ WannaCry ใช้
+ต้องปิด</td>
+</tr>
+<tr class="even">
 <td><strong>SOAR</strong></td>
 <td>ระบบอัตโนมัติสำหรับงานตอบสนองเหตุตามสูตรที่กำหนด</td>
 </tr>
 <tr class="odd">
+<td><strong>SSH</strong></td>
+<td>โปรโตคอลเข้าควบคุมเครื่อง Linux และอุปกรณ์เครือข่ายระยะไกลแบบเข้ารหัส</td>
+</tr>
+<tr class="even">
 <td><strong>STIX / TAXII</strong></td>
 <td>รูปแบบและโปรโตคอลแลกเปลี่ยนข้อมูลภัยคุกคาม</td>
+</tr>
+<tr class="odd">
+<td><strong>TCTI</strong></td>
+<td>Thailand Cyber Threat Intelligence แพลตฟอร์มแบ่งปันข่าวกรองภัยคุกคามของ
+สกมช.</td>
 </tr>
 <tr class="even">
 <td><strong>Threat Hunting</strong></td>
@@ -12844,22 +13219,38 @@ Register)</h3>
 AMBER, GREEN, CLEAR)</td>
 </tr>
 <tr class="even">
+<td><strong>TOR (การจัดซื้อ)</strong></td>
+<td>Terms of Reference เอกสารกำหนดคุณลักษณะและเงื่อนไขในการจัดซื้อจัดจ้าง</td>
+</tr>
+<tr class="odd">
+<td><strong>TOTP</strong></td>
+<td>รหัสใช้ครั้งเดียวที่เปลี่ยนตามเวลา สร้างจากแอป Authenticator</td>
+</tr>
+<tr class="even">
 <td><strong>TTP</strong></td>
 <td>ยุทธวิธี เทคนิค และขั้นตอนของผู้โจมตี (Tactics, Techniques and
 Procedures)</td>
 </tr>
 <tr class="odd">
+<td><strong>UPS</strong></td>
+<td>เครื่องสำรองไฟฟ้า</td>
+</tr>
+<tr class="even">
 <td><strong>VA</strong></td>
 <td>การประเมินช่องโหว่</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Vishing</strong></td>
 <td>การหลอกลวงทางโทรศัพท์ เช่น อ้างเป็น IT หรือ Vendor เพื่อขอรหัสผ่าน OTP
 หรือให้ติดตั้งโปรแกรมรีโมต</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>VLAN</strong></td>
 <td>เครือข่ายเสมือนสำหรับแบ่งโซน</td>
+</tr>
+<tr class="odd">
+<td><strong>VPN</strong></td>
+<td>ช่องทางเชื่อมต่อเข้าเครือข่ายจากภายนอกแบบเข้ารหัส ต้องใช้ร่วมกับ MFA</td>
 </tr>
 <tr class="even">
 <td><strong>WAF</strong></td>
@@ -12870,8 +13261,93 @@ Procedures)</td>
 <td>หลัก “ไม่เชื่อใจโดยปริยาย ตรวจสอบทุกครั้ง”</td>
 </tr>
 <tr class="even">
+<td><strong>ZTMM</strong></td>
+<td>Zero Trust Maturity Model ของ CISA ใช้วัดระดับ Zero Trust ใน 5
+เสาหลัก</td>
+</tr>
+<tr class="odd">
 <td><strong>ZTNA</strong></td>
 <td>การเข้าถึงเฉพาะแอปที่ได้รับอนุญาตหลังตรวจตัวตนและสภาพเครื่อง ใช้แทน VPN</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ตวยอภาษาไทยทใชในเลม">ตัวย่อภาษาไทยที่ใช้ในเล่ม</h3>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ตัวย่อ</th>
+<th>ชื่อเต็ม</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>กมช.</strong></td>
+<td>คณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ</td>
+</tr>
+<tr class="even">
+<td><strong>สกมช.</strong></td>
+<td>สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ (NCSA)</td>
+</tr>
+<tr class="odd">
+<td><strong>ศปช.</strong></td>
+<td>ศูนย์ประสานการรักษาความมั่นคงปลอดภัยระบบคอมพิวเตอร์แห่งชาติ ภายใต้ สกมช.</td>
+</tr>
+<tr class="even">
+<td><strong>สคส.</strong></td>
+<td>สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (PDPC)</td>
+</tr>
+<tr class="odd">
+<td><strong>สป.สธ.</strong></td>
+<td>สำนักงานปลัดกระทรวงสาธารณสุข</td>
+</tr>
+<tr class="even">
+<td><strong>ศทส.สป.สธ.</strong></td>
+<td>ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร สำนักงานปลัดกระทรวงสาธารณสุข ผู้ดำเนินการ
+Health CERT</td>
+</tr>
+<tr class="odd">
+<td><strong>สสจ. / นพ.สสจ.</strong></td>
+<td>สำนักงานสาธารณสุขจังหวัด / นายแพทย์สาธารณสุขจังหวัด</td>
+</tr>
+<tr class="even">
+<td><strong>สสอ.</strong></td>
+<td>สำนักงานสาธารณสุขอำเภอ</td>
+</tr>
+<tr class="odd">
+<td><strong>รพศ. / รพท. / รพช.</strong></td>
+<td>โรงพยาบาลศูนย์ / โรงพยาบาลทั่วไป / โรงพยาบาลชุมชน</td>
+</tr>
+<tr class="even">
+<td><strong>รพ.สต.</strong></td>
+<td>โรงพยาบาลส่งเสริมสุขภาพตำบล</td>
+</tr>
+<tr class="odd">
+<td><strong>สบส.</strong></td>
+<td>กรมสนับสนุนบริการสุขภาพ</td>
+</tr>
+<tr class="even">
+<td><strong>อย.</strong></td>
+<td>สำนักงานคณะกรรมการอาหารและยา</td>
+</tr>
+<tr class="odd">
+<td><strong>สปสช.</strong></td>
+<td>สำนักงานหลักประกันสุขภาพแห่งชาติ</td>
+</tr>
+<tr class="even">
+<td><strong>สรพ.</strong></td>
+<td>สถาบันรับรองคุณภาพสถานพยาบาล (องค์การมหาชน)</td>
+</tr>
+<tr class="odd">
+<td><strong>สพร.</strong></td>
+<td>สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน) (DGA)</td>
+</tr>
+<tr class="even">
+<td><strong>สพธอ.</strong></td>
+<td>สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์ (ETDA)</td>
 </tr>
 </tbody>
 </table>
@@ -13451,6 +13927,350 @@ Vendor</figcaption>
 </table>
 <p>อ่านละเอียด: บทที่ 18, Remote Access ของบริษัทผู้ดูแลระบบหัวข้อ 8.6, Deepfake
 หัวข้อ 25.9</p>
+<hr />
+<h2 id="ภาคผนวก-ซ-แนวคำตอบคำถามทบทวนทายบท">ภาคผนวก ซ
+แนวคำตอบคำถามทบทวนท้ายบท</h2>
+<p>แนวคำตอบนี้ใช้สำหรับผู้อ่านตรวจความเข้าใจด้วยตนเอง
+และสำหรับวิทยากรที่ใช้หนังสือเป็นเอกสารประกอบการอบรม
+คำถามที่ให้ลงมือทำกับหน่วยงานของผู้อ่านไม่มีคำตอบเดียว
+แนวคำตอบจึงบอกสิ่งที่ควรเห็นในคำตอบที่ดี และบทหรือหัวข้อที่ควรกลับไปอ่าน</p>
+<h3 id="บทท-1-ทำไมระบบสขภาพจงตกเปนเปาหมาย">บทที่ 1
+ทำไมระบบสุขภาพจึงตกเป็นเป้าหมาย</h3>
+<ol type="1">
+<li>ตัวอย่าง: HIS (ลงทะเบียน สั่งยา และไม่เห็นประวัติแพ้ยา) LIS (ผลแล็บล่าช้า) PACS
+(อ่านภาพไม่ได้ อาจต้องส่งต่อผู้ป่วย) ระบบเบิกจ่าย (รายได้หยุด) และระบบคิวหรือนัดหมาย
+จุดสำคัญคือคิดผลต่อผู้ป่วย ไม่ใช่แค่ผลต่องาน IT</li>
+<li>เพื่อกดดันสองชั้น แม้หน่วยงานกู้จาก Backup ได้ ผู้โจมตีก็ยังขู่เผยแพร่ข้อมูล (Double
+Extortion) และข้อมูลสุขภาพยังนำไปใช้หลอกลวงผู้ป่วยต่อได้</li>
+<li>การแพตช์ระบบปฏิบัติการตามรอบ ซึ่งผู้ผลิตออกแพตช์ไว้ก่อนเหตุหลายสัปดาห์ ร่วมกับปิด
+SMBv1 ไม่เปิดพอร์ตแชร์ไฟล์สู่อินเทอร์เน็ต แยกเครือข่าย และเลิกใช้ระบบปฏิบัติการหมดอายุ
+(บทที่ 10)</li>
+</ol>
+<h3 id="บทท-2-แนวคดพนฐานทตองร">บทที่ 2 แนวคิดพื้นฐานที่ต้องรู้</h3>
+<ol type="1">
+<li>ตัวอย่าง: Asset ฐานข้อมูล HIS, Threat Ransomware, Vulnerability RDP
+เปิดสู่อินเทอร์เน็ตและไม่มี MFA, Risk โอกาส 4 × ผลกระทบ 5 = 20 (เทียบ R01 หัวข้อ
+7.6)</li>
+<li>Wazuh → DETECT, Backup 3-2-1 → PROTECT (การมีสำเนา) และ RECOVER
+(การกู้คืน), คำสั่งแต่งตั้ง CISO → GOVERN, Asset Inventory → IDENTIFY, IR
+Playbook → RESPOND</li>
+</ol>
+<h3 id="บทท-3-พ.ร.บ.ไซเบอร-2562-และ-cii-ดานสาธารณสข">บทที่ 3 พ.ร.บ.ไซเบอร์
+2562 และ CII ด้านสาธารณสุข</h3>
+<ol type="1">
+<li>หน่วยบริการที่ให้บริการจริง เช่น โรงพยาบาลและ รพ.สต. เป็น Operator
+ส่วนหน่วยงานกำกับคือกระทรวงสาธารณสุขและ Regulator เฉพาะด้าน เช่น สบส. และ อย.
+เหตุภัยไซเบอร์รายงานไปที่ Health CERT ศทส.สป.สธ. ภายใน 24
+ชั่วโมงผ่านช่องทางทางการ</li>
+<li>ร้ายแรง เพราะปัจจัยระบบงาน บริการหลักคือผลแล็บทำงานไม่ได้จนต้องใช้มือ
+และให้ถือระดับสูงสุดของ 4 ปัจจัย ถ้ากู้คืนไม่ได้หรือลามไปหน่วยงานอื่นต้องพิจารณาระดับวิกฤติ
+ส่วนการทำงานภายในใช้ Priority P1 หรือ P2</li>
+</ol>
+<h3 id="บทท-4-pdpa-สำหรบสถานพยาบาล-และธรรมาภบาลขอมล">บทที่ 4 PDPA
+สำหรับสถานพยาบาล และธรรมาภิบาลข้อมูล</h3>
+<ol type="1">
+<li>ควรเห็น Privacy Notice ที่มีชื่อหน่วยงาน ติดที่จุดลงทะเบียน เว็บไซต์
+และช่องทางออนไลน์ โดยใช้แม่แบบจาก pdpa.moph.go.th</li>
+<li>ตัวอย่างผู้ประมวลผล: บริษัทผู้ดูแล HIS ผู้ให้บริการ Cloud บริษัทส่ง SMS นัดหมาย
+และบริษัททำลายเอกสาร ทุกรายต้องมี DPA ที่ระบุมาตรการความปลอดภัยและหน้าที่แจ้งเหตุ</li>
+</ol>
+<h3 id="บทท-5-นโยบายและมาตรฐานของกระทรวงสาธารณสข">บทที่ 5
+นโยบายและมาตรฐานของกระทรวงสาธารณสุข</h3>
+<ol type="1">
+<li>ผู้บริหารระดับสูงสุดของหน่วยงานเป็นผู้รับผิดชอบ (ข้อ 6)
+และต้องให้ผู้ตรวจสอบภายในหรือผู้ตรวจสอบอิสระภายนอกประเมินความเสี่ยงอย่างน้อยปีละหนึ่งครั้ง
+(ข้อ 5)</li>
+<li>ไม่ต้อง ให้ประกาศรับนโยบายของกระทรวงมาใช้ แล้วเพิ่มเฉพาะส่วนที่เป็นของหน่วยงาน
+เช่น ผู้รับผิดชอบ ระบบสำคัญ ช่องทางติดต่อ
+และทบทวนปีละครั้งพร้อมเก็บรายงานการประชุม</li>
+<li>ครบทั้ง 4 ชั้นในภาพที่ 5.1 คือ นโยบายที่ผู้บริหารลงนาม แนวปฏิบัติหมวด 2 SOP
+ขั้นตอนสำรองและกู้คืน และบันทึกจริง เช่น Backup Log และแบบบันทึกการทดสอบกู้คืน
+(ภาคผนวก ข.5) ชั้นล่างสุดคือสิ่งที่พิสูจน์ว่าทำจริง</li>
+<li>คำตอบขึ้นกับหน่วยงาน ตัวอย่างที่ดีคือทะเบียนความเสี่ยงฉบับเดียวใช้ตอบ HA, HAIT และ
+CTAM+ หรือ Backup Log ใช้ตอบ CTAM+ ตัวชี้วัด v2.1 และ ISO 27001 พร้อมกัน
+จุดที่ควรเห็นคือการจัดเก็บแบบเดียวแล้วใช้ซ้ำ</li>
+</ol>
+<h3 id="บทท-6-ctam-ฉบบลงมอทำ">บทที่ 6 CTAM+ ฉบับลงมือทำ</h3>
+<ol type="1">
+<li>17 ข้อ และต้องผ่านครบทุกข้อจึงได้ระดับสูง คะแนน Dashboard แบ่งเป็นเชิงปริมาณ 70%
+(สัดส่วนข้อที่มีสถานะ “มี”) และเชิงผลกระทบ 30%
+(ไม่มีเหตุภัยคุกคามและไม่มีข้อมูลรั่วไหล)</li>
+<li>โรงพยาบาล → สสจ. → เขตสุขภาพ → ศทส.สป.สธ. ตามภาพที่ 6.1
+แต่ละระดับตรวจและอนุมัติก่อนส่งต่อ</li>
+<li>เริ่มจากงานที่ไม่ใช้งบและเห็นผลเร็ว เช่น เปลี่ยนรหัส Default ปิดบัญชีที่ไม่ใช้
+ทำทะเบียนทรัพย์สิน และเริ่มเก็บ Log ให้เร็วที่สุด เพราะ Log
+ต้องสะสมย้อนหลังจึงใช้เป็นหลักฐานได้</li>
+<li>คำตอบขึ้นกับหน่วยงาน ควรระบุหลักฐานที่จับต้องได้ (ภาพหน้าจอ Log รายงาน คำสั่ง)
+ไม่ใช่แค่ “ทำแล้ว” และนำข้อที่ค้างเข้า Excel แผ่น “ติดตาม CTAM+” ใน Toolkit</li>
+</ol>
+<h3 id="บทท-7-บญชทรพยสนและการบรหารความเสยงไซเบอร">บทที่ 7
+บัญชีทรัพย์สินและการบริหารความเสี่ยงไซเบอร์</h3>
+<ol type="1">
+<li>ได้ 4 × 5 = 20 คะแนน เกินเกณฑ์ ≥ 10 จึงต้องจัดการ และอยู่ในโซนสูงมาก (16–25)
+บน Heat Map ตามภาพที่ 7.2</li>
+<li>ลด (เช่น เปิด MFA ทำ Backup Offline) หลีกเลี่ยง (เลิกใช้ระบบที่เสี่ยง) ถ่ายโอน
+(ทำสัญญาให้ Vendor รับผิดชอบหรือทำประกัน) และยอมรับ (ผู้บริหารลงนามรับความเสี่ยงที่เหลือ
+เช่น เครื่อง X-ray ที่ใช้ OS เก่า)</li>
+<li>ตามหาเจ้าของ บันทึกในทะเบียนทรัพย์สิน ถ้าไม่มีผู้ใช้ให้ปิดตามขั้นตอน System
+Termination (หัวข้อ 7.4) คือแจ้งล่วงหน้า สำรองข้อมูล ปิดชั่วคราวเพื่อดูผลกระทบ
+แล้วจึงปลดระวางพร้อมบันทึก</li>
+<li>ควรมีสาเหตุที่ชัด มาตรการที่ทำได้จริง ผู้รับผิดชอบเป็นตำแหน่ง และกำหนดเสร็จ
+คะแนนหลังจัดการต้องลดลงอย่างมีเหตุผล เทียบตัวอย่าง R01–R04 ในหัวข้อ 7.6</li>
+</ol>
+<h3 id="บทท-8-การยนยนตวตนและการจดการสทธ">บทที่ 8
+การยืนยันตัวตนและการจัดการสิทธิ์</h3>
+<ol type="1">
+<li>อย่างน้อย 12 ตัวอักษร ล็อกบัญชีเมื่อใส่ผิดซ้ำ และบัญชีที่ไม่ได้ใช้เกิน 90
+วันให้ปิดในรอบทบทวนรายไตรมาส</li>
+<li>5 จุด คือ VPN, อุปกรณ์เครือข่าย, อุปกรณ์ Security (Firewall, WAF),
+Hypervisor และระบบปฏิบัติการ</li>
+<li>ขั้นย้ายงาน (Mover) ตามภาพที่ 8.1 งานบุคคลไม่ได้แจ้ง IT หรือ IT
+เพิ่มสิทธิ์ใหม่โดยไม่ถอดสิทธิ์เดิม แก้โดยกำหนดให้แจ้งภายในวันเดียวกัน ปรับสิทธิ์ตาม Access
+Rights Matrix และให้หัวหน้างานยืนยันรายชื่อทุกไตรมาส</li>
+<li>คำตอบขึ้นกับหน่วยงาน
+เป้าหมายคือบัญชีผู้ดูแลระบบและบัญชีที่เข้าจากภายนอกใช้วิธีที่ต้านฟิชชิงได้ เช่น Passkey/FIDO2
+(หัวข้อ 25.3) ส่วนผู้ใช้ทั่วไปอย่างน้อยใช้แอป Authenticator แทน SMS</li>
+</ol>
+<h3 id="บทท-9-ความปลอดภยเครอขายและไฟรวอลล">บทที่ 9
+ความปลอดภัยเครือข่ายและไฟร์วอลล์</h3>
+<ol type="1">
+<li>Default Deny คือปิดทุกอย่างแล้วเปิดเฉพาะที่จำเป็น ส่วน Policy
+บล็อกต้องอยู่บนสุดเพราะ Firewall ส่วนใหญ่อ่านกฎจากบนลงล่าง ถ้ากฎอนุญาตอยู่ก่อน
+ทราฟฟิกอันตรายจะผ่านไปก่อนถึงกฎบล็อก</li>
+<li>อย่างน้อย Server, Client, Medical IoT และ Guest โดยให้ Firewall
+ควบคุมการข้ามโซนทุกครั้ง และเปิด Log ทุก Policy</li>
+<li>LINE Notify ปิดให้บริการแล้วตั้งแต่ 31 มีนาคม 2568 ต้องย้ายไปช่องทางอื่น เช่น LINE
+Messaging API, Telegram, อีเมล หรือส่งเข้า Wazuh แล้วแจ้งเตือนจากที่นั่น</li>
+<li>คำตอบขึ้นกับหน่วยงาน ควรระบุ Policy ที่ไม่มี Hit Count ในรอบ 90 วัน
+กฎที่เปิดกว้างเกินจำเป็น และพอร์ตบริหารจัดการที่เปิดสู่อินเทอร์เน็ต พร้อมขอปิดผ่าน Change
+Request</li>
+</ol>
+<h3 id="บทท-10-ความปลอดภยเครองลกขายและเซรฟเวอร">บทที่ 10
+ความปลอดภัยเครื่องลูกข่ายและเซิร์ฟเวอร์</h3>
+<ol type="1">
+<li>ระบบที่เปิดสู่อินเทอร์เน็ตภายใน 72 ชั่วโมง ระบบภายในภายใน 7 วัน
+ตามตารางกรอบเวลาในหัวข้อ 10.1</li>
+<li>ใช้มาตรการชดเชยตามภาพที่ 10.1 เช่น จำกัดการเข้าถึงด้วย Firewall/VLAN ทำ
+Virtual Patching ด้วย WAF เพิ่มกฎเฝ้าระวังใน Wazuh
+แล้วให้ผู้บริหารลงนามยอมรับความเสี่ยงที่เหลือในทะเบียนความเสี่ยง</li>
+<li>แยกไว้ใน VLAN Medical ห้ามออกอินเทอร์เน็ต อนุญาตเฉพาะการเชื่อมต่อไป PACS
+ที่จำเป็น ปิดพอร์ต USB ที่ไม่ใช้ เฝ้าระวังทราฟฟิกที่ Firewall และบันทึกการยอมรับความเสี่ยง
+(หัวข้อ 10.4 และบทที่ 22)</li>
+<li>คำตอบขึ้นกับหน่วยงาน ตัวอย่างข้อที่มักไม่ผ่าน ได้แก่ SMBv1 ยังเปิด ไม่ได้เข้ารหัสดิสก์ บัญชี
+Administrator เดิมยังใช้ได้ และไม่มี Host Firewall ใช้
+<code>lynis audit system</code> บน Linux ช่วยตรวจได้</li>
+</ol>
+<h3 id="บทท-11-ความปลอดภยเวบแอปพลเคชนและ-waf">บทที่ 11
+ความปลอดภัยเว็บแอปพลิเคชันและ WAF</h3>
+<ol type="1">
+<li>เพื่อเก็บ Log 1–2 สัปดาห์ดูว่ากฎไปบล็อกการใช้งานจริงตรงไหน (False Positive)
+แล้วปรับกฎก่อน ถ้าเปิดบล็อกทันทีเว็บอาจใช้งานไม่ได้และผู้ใช้จะขอให้ปิด WAF</li>
+<li>HTTPS พร้อม Security Headers, CMS และ Plugin ที่อัปเดต, ปิด Directory
+Listing และอยู่หลัง WAF ตาม CTAM+ ข้อ 8</li>
+<li>เว็บถูกฝังหน้าซ่อนหรือสคริปต์ที่แสดงเนื้อหาต่างกันกับบอตค้นหา (Cloaking) ซึ่งมักมาจาก
+Web Shell หรือ Plugin ที่มีช่องโหว่ ให้ทำตาม Playbook ภาคผนวก ช.3 และหัวข้อ
+11.3</li>
+<li>คำตอบขึ้นกับหน่วยงาน ควรตรวจว่าใบรับรองยังไม่หมดอายุ ปิด TLS เวอร์ชันเก่า และมี
+Header สำคัญ เช่น HSTS, X-Content-Type-Options,
+Content-Security-Policy</li>
+</ol>
+<h3 id="บทท-12-ความปลอดภยระบบ-his-และฐานขอมล">บทที่ 12 ความปลอดภัยระบบ HIS
+และฐานข้อมูล</h3>
+<ol type="1">
+<li>เพราะถ้าเครื่องใดถูกยึด ผู้โจมตีจะได้สิทธิ์เต็มต่อฐานข้อมูลทั้งหมด และ Audit Log
+จะแยกไม่ได้ว่าใครทำอะไร
+ต้องจำกัดเครือข่ายที่เข้าถึงฐานข้อมูลได้และใช้บัญชีแยกตามบทบาท</li>
+<li>ใช้ตรวจย้อนว่าใครเปิดดูหรือส่งออกข้อมูลผู้ป่วยรายใด เมื่อใด
+เป็นหลักฐานเมื่อเกิดเหตุละเมิด และใช้ตรวจการเข้าถึงที่ไม่เกี่ยวกับการรักษา เช่น
+การเปิดดูประวัติคนดัง</li>
+<li>ต้องมีคำขอและการอนุมัติตามลำดับชั้น มี DSA ส่งเฉพาะคอลัมน์ที่จำเป็น ทำ
+Pseudonymization (ตัวอย่าง SQL หัวข้อ 4.5) ส่งผ่านช่องทางที่เข้ารหัส
+และบันทึกการเปิดเผยข้อมูล</li>
+<li>คำตอบขึ้นกับหน่วยงาน ใช้คำสั่ง
+<code>SELECT user, host FROM mysql.user</code> บัญชีที่ host เป็น
+<code>%</code> หรือมีสิทธิ์ ALL PRIVILEGES โดยไม่จำเป็นควรจำกัดลง</li>
+</ol>
+<h3 id="บทท-13-การสำรองขอมล-3-2-1-และ-bcpdrp">บทที่ 13 การสำรองข้อมูล 3-2-1
+และ BCP/DRP</h3>
+<ol type="1">
+<li>ข้อมูล 3 ชุด เก็บบนสื่อ 2 แบบ 1 ชุดอยู่นอกสถานที่ 1 ชุด Offline หรือ Immutable
+ที่ผู้โจมตีลบไม่ได้ และ 0 ข้อผิดพลาดเมื่อทดสอบกู้คืน</li>
+<li>RPO คือข้อมูลที่ยอมให้หายย้อนหลังได้มากที่สุด เช่น RPO 24 ชม.
+ต้องสำรองอย่างน้อยวันละครั้ง ส่วน RTO คือเวลาที่ต้องกู้ระบบให้กลับมาใช้ได้</li>
+<li>แยก NAS ออกจากโดเมนและใช้บัญชีเฉพาะ เพิ่มชุดสำรองแบบ Offline หรือ Immutable
+(เช่น Snapshot ที่ลบไม่ได้ หรือเทปและดิสก์ที่ถอดออก) เข้ารหัส Backup ที่ออกนอกสถานที่
+และทดสอบกู้คืนทุกเดือน</li>
+<li>คำตอบขึ้นกับหน่วยงาน บันทึกลงแบบภาคผนวก ข.5 ถ้าเวลาที่ใช้เกิน RTO
+ต้องปรับวิธีสำรองหรือปรับ RTO ร่วมกับผู้บริหาร</li>
+</ol>
+<h3 id="บทท-14-log-management-และ-siem-ดวย-wazuh">บทที่ 14 Log Management
+และ SIEM ด้วย Wazuh</h3>
+<ol type="1">
+<li>System, Access, Authentication, Authorization, Error และ Application
+Logs เก็บไม่น้อยกว่า 90 วันตาม พ.ร.บ.คอมพิวเตอร์ (แนะนำ 120–180 วัน)</li>
+<li>เพื่อให้เรียงลำดับเหตุการณ์จากหลายแหล่งได้ถูกต้องตอนสืบสวน ถ้าเวลาไม่ตรงกันจะเชื่อม
+Log Firewall, VPN และเครื่องลูกข่ายเข้าด้วยกันไม่ได้ และหลักฐานอ่อนลง</li>
+<li>คัดกรองตามภาพที่ 14.2 ตรวจบริบทว่าบัญชีใด สำเร็จหรือไม่ ถ้ามีบัญชีที่ Login
+สำเร็จให้ถือเป็น P1/P2 ปิดบัญชี เปลี่ยนรหัส ตรวจ MFA และเปิดเหตุตามบทที่ 17
+ถ้าไม่สำเร็จให้บล็อก IP และตรวจว่าจำกัดประเทศที่ VPN แล้วหรือยัง</li>
+<li>คำตอบขึ้นกับหน่วยงาน ภาพหน้าจอต้องเห็นเวลา ชื่อเครื่อง และระดับของ Alert
+ใช้เป็นหลักฐาน CTAM+ ได้หลายข้อพร้อมกัน</li>
+</ol>
+<h3 id="บทท-15-threat-intelligence-ดวย-ncsa-blacklist">บทที่ 15 Threat
+Intelligence ด้วย NCSA Blacklist</h3>
+<ol type="1">
+<li>เชิงป้องกัน คือนำ IOC ไปบล็อกที่ Firewall, DNS หรือ WAF และเชิงตรวจจับ คือค้น
+Log ย้อนหลังว่าเคยมีเครื่องใดติดต่อ IOC เหล่านั้นแล้วหรือไม่</li>
+<li>IOC บางรายการอาจเป็น IP หรือโดเมนที่ใช้ร่วมกันกับบริการปกติ เช่น Cloud หรือ CDN
+การบล็อกทันทีอาจทำให้ระบบงานหยุด ควรตรวจแหล่งที่มา อายุของข้อมูล และทดสอบก่อน</li>
+<li>ถือเป็นสัญญาณที่ต้องสืบต่อ ตรวจเครื่องนั้นด้วย EDR ดูโปรเซสและการเชื่อมต่อ
+ตรวจบัญชีที่ใช้บนเครื่อง ถ้าพบร่องรอยมัลแวร์ให้ตัดเครือข่ายและเปิดเหตุตามบทที่ 17 แล้วแจ้ง
+Health CERT</li>
+<li>คำตอบขึ้นกับหน่วยงาน ควรอัปเดตอัตโนมัติอย่างน้อยวันละครั้ง วาง Policy บล็อกไว้บนสุด
+และเก็บ Log การบล็อกไว้ตรวจย้อน</li>
+</ol>
+<h3 id="บทท-16-vulnerability-assessment-และ-penetration-testing">บทที่ 16
+Vulnerability Assessment และ Penetration Testing</h3>
+<ol type="1">
+<li>VA คือสแกนหาช่องโหว่ที่รู้จักแบบอัตโนมัติ ทำเองได้บ่อย เช่น รายเดือน ส่วน Pentest
+คือผู้ทดสอบพยายามเจาะจริงเพื่อพิสูจน์ผลกระทบ
+ทำปีละครั้งโดยผู้ทดสอบที่ได้รับอนุญาตเป็นลายลักษณ์อักษร</li>
+<li>ช่องโหว่ที่อยู่ใน CISA KEV (ถูกใช้โจมตีจริงแล้ว) และช่องโหว่บนระบบที่เปิดสู่อินเทอร์เน็ต
+โดยไม่ต้องดูคะแนน CVSS เพียงอย่างเดียว</li>
+<li>แจ้งผู้ประสานงานของผู้ทดสอบให้หยุดชั่วคราวทันทีตามช่องทางที่ตกลงไว้ ก่อนทดสอบควรระบุ
+HIS Production ช่วงกลางวันเป็นส่วนที่ไม่ให้ทดสอบ กำหนดวันเวลาให้ชัด
+และสำรองข้อมูลก่อนวันทดสอบ (หัวข้อ 16.8)</li>
+<li>คำตอบขึ้นกับหน่วยงาน สแกนเฉพาะระบบของตนที่อยู่ในทะเบียน ระวังอุปกรณ์การแพทย์
+และงานจะจบเมื่อ Rescan ยืนยันว่าปิดแล้วเท่านั้น</li>
+</ol>
+<h3 id="บทท-17-การรบมอเหตการณและการแจงเหต">บทที่ 17
+การรับมือเหตุการณ์และการแจ้งเหตุ</h3>
+<ol type="1">
+<li>Health CERT ภายใน 24 ชั่วโมง และ สคส. ภายใน 72 ชั่วโมงนับแต่ทราบเหตุ
+ถ้าเหตุนั้นเกี่ยวกับข้อมูลส่วนบุคคลและมีความเสี่ยงต่อสิทธิของเจ้าของข้อมูล</li>
+<li>เพราะหลักฐานในหน่วยความจำ เช่น โปรเซสและการเชื่อมต่อของมัลแวร์ จะหายไป
+ให้ตัดเครือข่ายแทนแล้วปรึกษาผู้เชี่ยวชาญก่อน หลักฐานที่ไวที่สุดคือ RAM ต้องเก็บก่อน (หัวข้อ
+17.9)</li>
+<li>P2 High เพราะบัญชีถูกเข้าถึงโดยไม่ได้รับอนุญาต ใช้การ์ด ช.4
+และถ้าพบว่ามีข้อมูลผู้ป่วยถูกส่งออกไปให้ใช้การ์ด ช.2 ด้วย</li>
+<li>คำตอบขึ้นกับหน่วยงาน ใช้รูปแบบหัวข้อ 17.11 และสรุปผลด้วยแบบ AAR ใน Toolkit
+จุดที่มักพบคือไม่มีรายชื่อติดต่อฉบับกระดาษ และไม่รู้ว่าใครมีอำนาจสั่งตัดเครือข่าย</li>
+</ol>
+<h3 id="บทท-18-security-awareness-สำหรบบคลากรสาธารณสข">บทที่ 18 Security
+Awareness สำหรับบุคลากรสาธารณสุข</h3>
+<ol type="1">
+<li>ใครส่งมาและคาดว่าจะได้รับหรือไม่ เร่งหรือข่มขู่หรือไม่ ลิงก์ชี้ไปที่ไหน และขอรหัสผ่าน OTP
+ข้อมูลผู้ป่วยหรือให้ติดตั้งโปรแกรมหรือไม่</li>
+<li>เพราะสะท้อนว่าบุคลากรเป็นแนวป้องกันที่ช่วยแจ้งเหตุได้ ยิ่งมีคนแจ้งเร็ว IT
+ยิ่งบล็อกและเตือนคนอื่นทัน ส่วนอัตราการคลิกไม่มีวันเป็นศูนย์</li>
+<li>ย้ำว่าการแจ้งเร็วไม่ถูกลงโทษจากการแจ้ง และชื่นชมผู้ที่แจ้ง
+เพราะความเสียหายเกิดจากการแจ้งช้า ไม่ใช่จากการคลิก
+ใช้หลักวัฒนธรรมการแจ้งเหตุโดยไม่กล่าวโทษในหัวข้อ 18.8</li>
+<li>คำตอบขึ้นกับหน่วยงาน ควรใช้ตัวอย่างข้อความหลอกที่เจอจริงในหน่วยงาน
+มีแบบทดสอบสั้นก่อนและหลัง (Toolkit แบบที่ 06) และบอกช่องทางแจ้ง IT ที่ชัดเจน</li>
+</ol>
+<h3 id="บทท-19-ธรรมาภบาลและแผนยกระดบระดบจงหวดเขต">บทที่ 19
+ธรรมาภิบาลและแผนยกระดับระดับจังหวัด/เขต</h3>
+<ol type="1">
+<li>ผู้บริหารสูงสุดเป็นเจ้าของความเสี่ยง CISO ขับเคลื่อนงานความมั่นคงปลอดภัย และ DPO
+ดูแลด้านข้อมูลส่วนบุคคล</li>
+<li>DPA ตาม PDPA การเข้าถึงระยะไกลผ่าน VPN + MFA ที่หน่วยงานควบคุมและบันทึก
+หน้าที่แจ้งเหตุภายในเวลาที่กำหนด การแพตช์และรองรับ OS ที่ยังได้รับการสนับสนุน
+และการคืนหรือทำลายข้อมูลเมื่อสิ้นสัญญา</li>
+<li>ทำเป็นบริการร่วมระดับจังหวัด เช่น Wazuh กลาง Backup ร่วม Firewall Template
+มาตรฐาน และทีมตอบสนองเหตุที่ไปช่วยได้ ตามโมเดล สสจ. ดูแลหน่วยบริการในบทนี้</li>
+<li>คำตอบขึ้นกับหน่วยงาน ควรมี Heat Map 5 อันดับแรก สิ่งที่ทำเสร็จ สถานะ CTAM+
+แบบสีเขียว เหลือง แดง และเรื่องที่ต้องให้ผู้บริหารตัดสินใจ</li>
+</ol>
+<h3 id="บทท-20-มาตรฐานสากลและบทเรยนตางประเทศสำหรบสขภาพดจทล">บทที่ 20
+มาตรฐานสากลและบทเรียนต่างประเทศสำหรับสุขภาพดิจิทัล</h3>
+<ol type="1">
+<li>อีเมลฟิชชิง, Ransomware, อุปกรณ์หรือข้อมูลสูญหายหรือถูกขโมย,
+ภัยจากคนในทั้งตั้งใจและพลั้งเผลอ และการโจมตีอุปกรณ์การแพทย์ที่เชื่อมเครือข่าย</li>
+<li>Volume 1 สำหรับองค์กรขนาดเล็ก Volume 2 สำหรับองค์กรขนาดกลางถึงใหญ่
+ทั้งสองเล่มใช้ 10 แนวปฏิบัติชุดเดียวกันแต่ลึกต่างกัน โรงพยาบาลชุมชนเริ่มจาก Volume 1
+ได้</li>
+<li>ข้อมูลเก็บที่ใด เข้ารหัสหรือไม่ การยืนยันตัวตนแพทย์และผู้ป่วย การบันทึก Log DPA ตาม
+PDPA การแจ้งเหตุจากผู้ให้บริการ และการคืนข้อมูลเมื่อเลิกใช้ ตามหัวข้อ 20.6</li>
+<li>คำตอบขึ้นกับหน่วยงาน ตัวอย่างเช่น MFA (CTAM+ ข้อ 7 และ PR.AA) Backup (CTAM+
+และ PR.DS/RC) และแผนรับมือเหตุ (CTAM+ และ RS)</li>
+</ol>
+<h3 id="บทท-21-ความปลอดภยอเมล-โดเมน-และ-cloud-workspace">บทที่ 21
+ความปลอดภัยอีเมล โดเมน และ Cloud Workspace</h3>
+<ol type="1">
+<li>SPF ระบุว่าเซิร์ฟเวอร์ใดส่งอีเมลในนามโดเมนได้ DKIM
+ลงลายมือชื่อดิจิทัลให้ตรวจว่าอีเมลไม่ถูกแก้ ส่วน DMARC บอกผู้รับว่าจะทำอย่างไรกับอีเมลที่ไม่ผ่าน
+และส่งรายงานกลับมาให้เจ้าของโดเมน</li>
+<li>เพราะอาจมีระบบที่ส่งอีเมลในนามโดเมนแต่ยังไม่ผ่าน SPF/DKIM เช่น ระบบนัดหมายที่
+Vendor ส่งแทน อีเมลจริงจะหาย ต้องเริ่มจาก p=none อ่านรายงาน 2–4 สัปดาห์
+แล้วค่อยเพิ่มเป็น quarantine และ reject ตามภาพที่ 21.2</li>
+<li>ประกาศว่าไม่มีใครส่งได้ด้วย SPF <code>v=spf1 -all</code> และ DMARC
+<code>v=DMARC1; p=reject</code> ตามขั้น 6 ในหัวข้อ 21.4
+เพื่อไม่ให้ถูกปลอมเป็นผู้ส่ง</li>
+<li>คำตอบขึ้นกับหน่วยงาน ตรวจด้วยคำสั่ง <code>dig TXT</code> หรือ
+<code>nslookup -type=TXT</code> และระวังจำนวนการค้น DNS ใน SPF รวมไม่เกิน 10
+ครั้ง</li>
+</ol>
+<h3 id="บทท-22-ความปลอดภยอปกรณการแพทย-pacs-การเชอมตอ-hl7-และระบบอาคาร">บทที่
+22 ความปลอดภัยอุปกรณ์การแพทย์ PACS การเชื่อมต่อ HL7 และระบบอาคาร</h3>
+<ol type="1">
+<li>เพราะโดยทั่วไปส่งข้อมูลผู้ป่วยโดยไม่เข้ารหัสและยืนยันตัวตนน้อย
+ใครเข้าถึงพอร์ตได้ก็อาจดึงหรือแก้ข้อมูลได้
+ต้องจำกัดผู้เชื่อมต่อเฉพาะเครื่องที่อนุญาตและแยกเครือข่าย</li>
+<li>MDS2 และ SBOM ของซอฟต์แวร์ในเครื่อง ระยะเวลาที่ผู้ผลิตจะออกแพตช์และรองรับ OS
+วิธีเข้าถึงระยะไกลที่ควบคุมได้ และการเปลี่ยนรหัส Default ตามหัวข้อ 22.6</li>
+<li>ย้ายไปโซน OT แยกจากเครือข่ายสำนักงาน เปลี่ยนรหัส Default ให้ Vendor
+เข้าผ่านช่องทางที่อนุมัติเท่านั้น บันทึกในทะเบียน และเตรียมวิธีควบคุมด้วยมือเมื่อระบบใช้ไม่ได้
+(หัวข้อ 22.9)</li>
+<li>คำตอบขึ้นกับหน่วยงาน ใช้คอลัมน์ตามหัวข้อ 22.2 และระบุผู้รับผิดชอบตามตาราง RACI
+หัวข้อ 22.7</li>
+</ol>
+<h3 id="บทท-23-ผโจมตเจาะระบบโรงพยาบาลอยางไร-รทนยทธวธเพอปองกน">บทที่ 23
+ผู้โจมตีเจาะระบบโรงพยาบาลอย่างไร: รู้ทันยุทธวิธีเพื่อป้องกัน</h3>
+<ol type="1">
+<li>ผู้โจมตีต้องสำเร็จทุกขั้นของวงจร แต่ผู้ป้องกันตรวจพบขั้นเดียวก็หยุดได้ เช่น วันที่ 0
+แจ้งเตือนการล็อกอิน VPN ที่ไม่มี MFA จากต่างประเทศ วันที่ 2–5
+ตรวจจับการขโมยรหัสผ่านจากหน่วยความจำ หรือวันที่ 10–13 เห็นการอัปโหลดข้อมูลปริมาณมากที่
+Firewall</li>
+<li>คำตอบขึ้นกับหน่วยงาน ช่องทางที่พบบ่อยคือ VPN หรือ Remote Access ที่ไม่มี MFA,
+ช่องโหว่อุปกรณ์ที่เปิดสู่อินเทอร์เน็ต และฟิชชิง ให้ตรวจกับตารางหัวข้อ 23.6</li>
+<li>คำตอบขึ้นกับหน่วยงาน ทดสอบด้วยวิธี Purple Team (หัวข้อ 23.10) บนเครื่องทดสอบ
+และบันทึกเทคนิคที่ยังไม่มี Alert เพื่อเพิ่มกฎ</li>
+<li>ไม่รีเซ็ตทันทีทางโทรศัพท์ ให้โทรกลับเบอร์ที่อยู่ในทะเบียน
+ยืนยันกับหัวหน้างานหรือให้แสดงตัวต่อหน้า และการรีเซ็ต MFA ต้องยืนยันเข้มกว่ารีเซ็ตรหัสผ่าน
+บันทึกทุกคำขอ</li>
+<li>ควรมีเหตุตั้งต้นที่สมจริง Inject ที่ทำให้ต้องตัดสินใจ เช่น Backup ถูกลบ สื่อโทรมา
+หรือผู้โจมตีขู่เผยแพร่ข้อมูล และกำหนดผู้สังเกตการณ์บันทึกจุดที่ทำไม่ได้</li>
+</ol>
+<h3 id="บทท-24-ระบบโฟลวการประสานขอมลและแบงปนความรดานไซเบอร">บทที่ 24
+ระบบโฟลว์การประสานข้อมูลและแบ่งปันความรู้ด้านไซเบอร์</h3>
+<ol type="1">
+<li>คำตอบขึ้นกับจังหวัด ควรเห็นเส้นทาง รพ.สต. → รพ./สสจ. → เขต → Health CERT →
+สกมช. และใช้เฉพาะช่องทางทางการ เช่น health-cirt.moph.go.th</li>
+<li>ควรมีระดับความเร่งด่วน ระบบที่กระทบ สิ่งที่ต้องทำและกำหนดเวลา
+วิธีตรวจว่าได้รับผลกระทบหรือไม่ ป้าย TLP และช่องทางรายงานกลับ</li>
+<li>ผลสแกนช่องโหว่ของ รพ. → TLP:AMBER หรือ AMBER+STRICT, อีเมลฟิชชิงที่กำลังระบาด
+→ TLP:GREEN, คู่มือตั้งค่า MFA → TLP:CLEAR</li>
+<li>เพราะผู้โจมตีเปลี่ยนค่าแฮชไฟล์ได้ง่ายมาก แต่เปลี่ยนพฤติกรรมและเครื่องมือที่ใช้ได้ยาก
+ข้อมูลระดับบนของ Pyramid of Pain จึงใช้ตรวจจับได้นานกว่า</li>
+<li>คำตอบขึ้นกับจังหวัด ควรมีวาระทบทวนเหตุที่เกิดจริง แบ่งปันกฎตรวจจับ ติดตามคำเตือนค้าง
+และผู้รับผิดชอบสรุปบทเรียนลงคลังความรู้</li>
+</ol>
+<h3 id="บทท-25-เทคโนโลยใหมทชวยปองกนการเจาะระบบ">บทที่ 25
+เทคโนโลยีใหม่ที่ช่วยป้องกันการเจาะระบบ</h3>
+<ol type="1">
+<li>คำตอบขึ้นกับเทคโนโลยีที่เลือก ข้อที่มักถูกมองข้ามคือใครจะดูการแจ้งเตือนทุกวันรวมวันหยุด
+และค่าใช้จ่ายต่อปีหลังปีแรก</li>
+<li>คำตอบขึ้นกับหน่วยงาน หน่วยบริการส่วนใหญ่ควรเริ่มที่เสาตัวตน (MFA) และเสาเครือข่าย
+(แบ่งโซนและเลิกเปิด VPN ให้ทุกคน)</li>
+<li>OTP เป็นรหัสที่ผู้ใช้พิมพ์เอง จึงถูกหลอกให้กรอกในเว็บปลอมได้ ส่วน Passkey
+ผูกกับโดเมนจริงและไม่มีรหัสให้กรอก เว็บปลอมจึงขอการยืนยันไม่ได้</li>
+<li>ตัวอย่าง: บัญชีล่อใน AD ไฟล์ล่อบน File Server และเครื่องล่อ OpenCanary ใน
+Server Zone ทุกแบบต้องแจ้งเตือนถึงผู้รับผิดชอบทันที เพราะไม่มีใครควรแตะต้อง</li>
+<li>คำสั่งโอนเงินเร่งด่วนต้องยืนยันโดยโทรกลับเบอร์ที่อยู่ในทะเบียน
+ใช้รหัสยืนยันที่ตกลงกันล่วงหน้า และต้องมีผู้อนุมัติสองคน
+ไม่ว่าเสียงหรือวิดีโอจะเหมือนผู้บริหารแค่ไหน</li>
+</ol>
 </div>
 <div class="chapter front biblio">
 <div class="ch-open">
@@ -13737,143 +14557,143 @@ module, Active Response) — https://documentation.wazuh.com</li>
 <p class="idx-note">เลขหน้าอ้างอิงตามฉบับ PDF แสดงหน้าที่กล่าวถึงคำนั้นมากที่สุดไม่เกิน 8 ตำแหน่ง</p>
 <div class="idx">
 <div class="idx-l">0–9</div>
-<p><b>3-2-1 (หลักการสำรองข้อมูล)</b> <span>13, 16, 18, 34, 41, 52, 93–94</span></p>
+<p><b>3-2-1 (หลักการสำรองข้อมูล)</b> <span>13, 16, 34, 41, 53, 97–98, 104</span></p>
 <div class="idx-l">A</div>
-<p><b>AAR (After Action Review)</b> <span>192, 194, 221, 223–224</span></p>
-<p><b>Active Directory</b> <span>58, 187</span></p>
-<p><b>AE Title</b> <span>160, 162</span></p>
-<p><b>AI (ปัญญาประดิษฐ์)</b> <span>145, 149, 171, 197–198, 205–206, 209</span></p>
-<p><b>API</b> <span>48, 65, 69, 79, 86, 149, 195, 217</span></p>
-<p><b>ASM / CTEM</b> <span>170, 205</span></p>
-<p><b>ATT&amp;CK (MITRE)</b> <span>168, 170–171, 174–176, 178–179</span></p>
+<p><b>AAR (After Action Review)</b> <span>200, 202, 232, 234–235, 245</span></p>
+<p><b>Active Directory</b> <span>60, 195</span></p>
+<p><b>AE Title</b> <span>168, 170</span></p>
+<p><b>AI (ปัญญาประดิษฐ์)</b> <span>152, 156, 179, 205–206, 213–214, 217</span></p>
+<p><b>API</b> <span>49, 67, 71, 82, 89, 108, 156, 203</span></p>
+<p><b>ASM / CTEM</b> <span>178, 213, 225</span></p>
+<p><b>ATT&amp;CK (MITRE)</b> <span>176, 178–179, 182–184, 186–187</span></p>
 <div class="idx-l">B</div>
-<p><b>BCP / DRP</b> <span>34, 42, 93, 97–98, 100, 210, 224</span></p>
-<p><b>BMS / HVAC</b> <span>164–166, 217</span></p>
+<p><b>BCP / DRP</b> <span>34, 42, 97, 101–102, 104, 218, 235</span></p>
+<p><b>BMS / HVAC</b> <span>172–174, 225</span></p>
 <div class="idx-l">C</div>
-<p><b>CIA Triad</b> <span>14, 18, 217</span></p>
-<p><b>CII (โครงสร้างพื้นฐานสำคัญทางสารสนเทศ)</b> <span>16, 19–21, 23–24, 148, 217</span></p>
-<p><b>CISA KEV</b> <span>72–73, 120, 185–186, 194–195, 198</span></p>
-<p><b>CISO</b> <span>17–18, 25, 36, 39–40, 45, 139</span></p>
-<p><b>Cloudflare</b> <span>18, 43, 62–63, 66, 68, 70, 86</span></p>
-<p><b>CSF (NIST Cybersecurity Framework)</b> <span>14, 17–18, 124, 138, 147, 150, 222</span></p>
-<p><b>CTAM+</b> <span>17, 35, 38–39, 41, 139, 142, 150</span></p>
-<p><b>CVE / CVSS</b> <span>72, 117, 119–120, 186, 217</span></p>
+<p><b>CIA Triad</b> <span>14, 18, 225</span></p>
+<p><b>CII (โครงสร้างพื้นฐานสำคัญทางสารสนเทศ)</b> <span>16, 19–21, 23–24, 155, 225</span></p>
+<p><b>CISA KEV</b> <span>74–75, 124, 193–194, 202–203, 206</span></p>
+<p><b>CISO</b> <span>17–18, 25, 36, 39–40, 45, 146</span></p>
+<p><b>Cloudflare</b> <span>18, 43, 64–65, 68, 70, 72, 89</span></p>
+<p><b>CSF (NIST Cybersecurity Framework)</b> <span>14, 17–18, 129, 145, 154, 157, 233</span></p>
+<p><b>CTAM+</b> <span>17, 35, 38–39, 146, 149, 157, 242</span></p>
+<p><b>CVE / CVSS</b> <span>74, 121, 123–124, 194, 225, 245</span></p>
 <div class="idx-l">D</div>
-<p><b>Deception / Honeypot</b> <span>197–198, 203–205, 208–209, 217</span></p>
-<p><b>Deepfake</b> <span>206, 209, 229</span></p>
-<p><b>Defacement</b> <span>10, 79, 81, 123, 127–128, 176, 226</span></p>
-<p><b>DICOM</b> <span>64, 66, 78, 159–163</span></p>
-<p><b>DMARC / DKIM / SPF</b> <span>152–155, 158, 172, 175, 206</span></p>
-<p><b>DNSSEC</b> <span>63, 70, 86, 157</span></p>
-<p><b>Downtime Procedure</b> <span>98, 100, 124–125, 127, 139, 163, 224</span></p>
+<p><b>Deception / Honeypot</b> <span>205–206, 211–213, 216–217, 225</span></p>
+<p><b>Deepfake</b> <span>214, 217, 240</span></p>
+<p><b>Defacement</b> <span>10, 82, 84, 128, 132–133, 184, 237</span></p>
+<p><b>DICOM</b> <span>66, 68, 80, 167–170, 174</span></p>
+<p><b>DMARC / DKIM / SPF</b> <span>159–162, 165–166, 226, 246</span></p>
+<p><b>DNSSEC</b> <span>65, 72, 89, 164, 226</span></p>
+<p><b>Downtime Procedure</b> <span>102, 104, 129–130, 132, 146, 171, 235</span></p>
 <div class="idx-l">E</div>
-<p><b>EDR / XDR</b> <span>34, 41, 64, 75, 198, 201–202, 208</span></p>
+<p><b>EDR / XDR</b> <span>34, 41, 66, 77, 206, 209–210, 216</span></p>
 <div class="idx-l">F</div>
-<p><b>FHIR</b> <span>145, 149, 151, 162, 217</span></p>
-<p><b>Firewall</b> <span>42, 64–65, 69, 73, 107, 161, 165</span></p>
+<p><b>FHIR</b> <span>152, 156, 158, 170, 226</span></p>
+<p><b>Firewall</b> <span>42, 66–67, 71, 73, 75, 111, 243</span></p>
 <div class="idx-l">G</div>
-<p><b>Google Workspace</b> <span>141, 152, 156</span></p>
+<p><b>Google Workspace</b> <span>148, 159, 163</span></p>
 <div class="idx-l">H</div>
-<p><b>Health CERT</b> <span>22, 25, 73, 126, 183–184, 216, 223</span></p>
-<p><b>Heat Map</b> <span>52–53, 179</span></p>
-<p><b>HIS (ระบบสารสนเทศโรงพยาบาล)</b> <span>15, 24, 49, 57, 87, 95, 212–213</span></p>
-<p><b>HL7</b> <span>144, 149, 159–162, 166, 217</span></p>
+<p><b>Health CERT</b> <span>22, 25, 75, 131, 191–192, 224, 234</span></p>
+<p><b>Heat Map</b> <span>53–54, 187, 242, 246</span></p>
+<p><b>HIS (ระบบสารสนเทศโรงพยาบาล)</b> <span>15, 24, 59, 91, 96, 99, 220–221</span></p>
+<p><b>HL7</b> <span>151, 156, 167–170, 174, 226</span></p>
 <div class="idx-l">I</div>
-<p><b>IEC 62443</b> <span>159, 165</span></p>
-<p><b>IoC (Indicator of Compromise)</b> <span>42, 69, 112, 115–116, 147, 188, 190</span></p>
-<p><b>IoMT</b> <span>149, 151, 159, 218</span></p>
-<p><b>ISO/IEC 27001</b> <span>32, 34–37, 51, 64, 150</span></p>
+<p><b>IEC 62443</b> <span>167, 173</span></p>
+<p><b>IoC (Indicator of Compromise)</b> <span>42, 71, 116, 119–120, 196, 198, 244</span></p>
+<p><b>IoMT</b> <span>156, 158, 167, 226</span></p>
+<p><b>ISO/IEC 27001</b> <span>32, 34–37, 52, 66, 157</span></p>
 <div class="idx-l">L</div>
-<p><b>LAPS</b> <span>57, 170, 173, 175, 180, 198, 207–208</span></p>
-<p><b>Least Privilege</b> <span>18, 56, 87, 89, 218</span></p>
-<p><b>Living off the Land</b> <span>174, 218</span></p>
+<p><b>LAPS</b> <span>59, 178, 181, 183, 188, 206, 215–216</span></p>
+<p><b>Least Privilege</b> <span>18, 58, 91, 93, 227</span></p>
+<p><b>Living off the Land</b> <span>182, 227</span></p>
 <div class="idx-l">M</div>
-<p><b>MDR</b> <span>197–198, 201–202, 208, 218</span></p>
-<p><b>MFA / 2FA</b> <span>59, 64, 156, 158, 172, 175, 200, 227</span></p>
-<p><b>Microsoft 365</b> <span>141, 152–154, 156</span></p>
-<p><b>MISP / TCTI</b> <span>115, 183, 188, 191–192, 196, 198, 208</span></p>
-<p><b>MySQL / MariaDB</b> <span>28, 58, 74, 87–89, 95, 215</span></p>
+<p><b>MDR</b> <span>205–206, 209–210, 216, 227</span></p>
+<p><b>MFA / 2FA</b> <span>61, 66, 163, 165, 180, 208, 238, 247</span></p>
+<p><b>Microsoft 365</b> <span>148, 159–161, 163</span></p>
+<p><b>MISP / TCTI</b> <span>119, 191, 196, 199–200, 204, 206, 216</span></p>
+<p><b>MySQL / MariaDB</b> <span>28, 60, 76, 91–93, 99, 223</span></p>
 <div class="idx-l">N</div>
-<p><b>NDR</b> <span>165, 198, 201–202, 208, 218</span></p>
-<p><b>Nmap</b> <span>50, 53, 108, 117–118, 160, 162, 215</span></p>
+<p><b>NDR</b> <span>173, 206, 209–210, 216, 227</span></p>
+<p><b>Nmap</b> <span>51, 54–55, 112, 121–122, 168, 223</span></p>
 <div class="idx-l">O</div>
-<p><b>OT (เทคโนโลยีปฏิบัติการ)</b> <span>34, 65, 159, 164–166, 218, 221</span></p>
-<p><b>OWASP</b> <span>43–44, 64, 79, 83–84, 86, 119</span></p>
+<p><b>OT (เทคโนโลยีปฏิบัติการ)</b> <span>34, 67, 167, 172–174, 227, 232</span></p>
+<p><b>OWASP</b> <span>43–44, 82, 86–87, 89, 123, 227</span></p>
 <div class="idx-l">P</div>
-<p><b>PACS</b> <span>12, 49, 64–65, 159–162</span></p>
-<p><b>PAM</b> <span>36, 41–42, 56, 64, 142, 210, 218</span></p>
-<p><b>Passkey / FIDO2</b> <span>59, 198, 200–201, 208–209, 218</span></p>
-<p><b>Patch</b> <span>41–42, 64, 72–73, 142, 163, 210</span></p>
-<p><b>PDPA</b> <span>13, 19, 26, 35, 44, 113, 136, 216</span></p>
-<p><b>Pentest</b> <span>37, 41, 44, 86, 117, 122, 142, 211</span></p>
-<p><b>Phishing</b> <span>10, 67, 128, 133, 135–137, 142</span></p>
-<p><b>Playbook</b> <span>127–128, 131, 193, 223, 227–229</span></p>
-<p><b>PQC (การเข้ารหัสหลังควอนตัม)</b> <span>198, 207–209, 218</span></p>
-<p><b>Purple Team</b> <span>179, 205</span></p>
+<p><b>PACS</b> <span>12, 50, 66, 167–170, 174</span></p>
+<p><b>PAM</b> <span>36, 41–42, 58, 66, 149, 218, 227</span></p>
+<p><b>Passkey / FIDO2</b> <span>61, 206, 208–209, 216–217, 227, 243</span></p>
+<p><b>Patch</b> <span>41–42, 66, 74–75, 149, 171, 218</span></p>
+<p><b>PDPA</b> <span>26, 35, 44, 96, 117, 142, 224, 246</span></p>
+<p><b>Pentest</b> <span>37, 44, 89, 121, 126, 149, 219, 245</span></p>
+<p><b>Phishing</b> <span>10, 69, 133, 139, 141–143, 149</span></p>
+<p><b>Playbook</b> <span>132–133, 136–137, 201, 238–240</span></p>
+<p><b>PQC (การเข้ารหัสหลังควอนตัม)</b> <span>206, 215–217, 228</span></p>
+<p><b>Purple Team</b> <span>187, 213, 247</span></p>
 <div class="idx-l">R</div>
-<p><b>RACI</b> <span>141, 163, 184, 196</span></p>
-<p><b>Ransomware</b> <span>11–12, 34, 75, 145, 169, 173, 224</span></p>
-<p><b>RDP</b> <span>10, 52, 66, 170, 172, 174–175, 180</span></p>
-<p><b>RPO / RTO</b> <span>34, 93, 95–97, 99–100, 180</span></p>
+<p><b>RACI</b> <span>148, 171, 192, 204, 228, 247</span></p>
+<p><b>Ransomware</b> <span>11–12, 34, 77, 152, 177, 181, 235</span></p>
+<p><b>RDP</b> <span>10, 53, 68, 178, 180, 182–183, 188</span></p>
+<p><b>RPO / RTO</b> <span>34, 97, 99–101, 103–104, 244</span></p>
 <div class="idx-l">S</div>
-<p><b>SASE / SSE</b> <span>198, 203, 208, 218</span></p>
-<p><b>SBOM / MDS2</b> <span>78, 140, 149, 162, 208, 218, 221</span></p>
-<p><b>SIEM</b> <span>13, 17, 43, 64, 102, 123, 191, 199</span></p>
-<p><b>SITREP</b> <span>130, 187, 218</span></p>
-<p><b>SOAR</b> <span>197–198, 201–203, 208, 218</span></p>
-<p><b>SOC / CSOC</b> <span>22, 113, 116, 141, 183, 198, 202, 217</span></p>
-<p><b>SQL Injection</b> <span>35, 79, 81–82, 85, 102</span></p>
-<p><b>SSH</b> <span>10, 56–57, 59–60, 66, 107–108</span></p>
-<p><b>STIX / TAXII</b> <span>113, 115, 191, 218</span></p>
-<p><b>Sysmon</b> <span>106, 170, 173, 175–176, 180, 198, 201</span></p>
+<p><b>SASE / SSE</b> <span>206, 211, 216, 228</span></p>
+<p><b>SBOM / MDS2</b> <span>80, 147, 156, 170, 216, 227, 232, 246</span></p>
+<p><b>SIEM</b> <span>13, 17, 43, 66, 106, 128, 199, 207</span></p>
+<p><b>SITREP</b> <span>135, 195, 228</span></p>
+<p><b>SOAR</b> <span>205–206, 209–211, 216, 228</span></p>
+<p><b>SOC / CSOC</b> <span>22, 117, 120, 148, 191, 206, 210, 225</span></p>
+<p><b>SQL Injection</b> <span>35, 82, 84–85, 88, 106</span></p>
+<p><b>SSH</b> <span>10, 58–59, 61–62, 68, 111–112</span></p>
+<p><b>STIX / TAXII</b> <span>117, 119, 199, 228</span></p>
+<p><b>Sysmon</b> <span>110, 178, 181, 183–184, 188, 206, 209</span></p>
 <div class="idx-l">T</div>
-<p><b>Tabletop Exercise</b> <span>100, 125, 130, 136, 141–142, 179, 181</span></p>
-<p><b>Telemedicine</b> <span>145, 148, 151</span></p>
-<p><b>Threat Hunting</b> <span>168, 178, 193, 208, 218, 221</span></p>
-<p><b>Threat Intelligence</b> <span>101, 112, 115–116, 141, 191, 199, 201</span></p>
-<p><b>TLP (Traffic Light Protocol)</b> <span>115, 182, 185–187, 190, 192, 196</span></p>
-<p><b>TLS / HTTPS</b> <span>66, 82, 86, 89, 91, 114, 152, 162</span></p>
-<p><b>TOR (ข้อกำหนดการจัดซื้อ)</b> <span>78, 86, 140, 149, 162–163, 165–166</span></p>
+<p><b>Tabletop Exercise</b> <span>104, 130, 135, 137, 142, 148–149, 189</span></p>
+<p><b>Telemedicine</b> <span>152, 155, 158</span></p>
+<p><b>Threat Hunting</b> <span>176, 186, 201, 216, 228, 232</span></p>
+<p><b>Threat Intelligence</b> <span>105, 116, 119–120, 148, 199, 207, 209</span></p>
+<p><b>TLP (Traffic Light Protocol)</b> <span>119, 190, 193–194, 198, 200, 204, 247</span></p>
+<p><b>TLS / HTTPS</b> <span>68, 85, 89, 93, 95, 118, 170, 226</span></p>
+<p><b>TOR (ข้อกำหนดการจัดซื้อ)</b> <span>80, 89, 147, 156, 170–171, 173–174</span></p>
 <div class="idx-l">V</div>
-<p><b>VLAN</b> <span>34, 64–65, 73, 77, 88, 161, 163</span></p>
-<p><b>VPN</b> <span>42, 52, 59, 66, 68–69, 162, 173</span></p>
+<p><b>VLAN</b> <span>34, 66–67, 73, 75, 92, 169, 171</span></p>
+<p><b>VPN</b> <span>42, 53, 61, 68, 70, 170, 181, 247</span></p>
 <div class="idx-l">W</div>
-<p><b>WAF / ModSecurity</b> <span>43, 63, 79, 82–84, 86, 226</span></p>
-<p><b>Wazuh</b> <span>69, 103–104, 110, 113, 115, 178, 202</span></p>
+<p><b>WAF / ModSecurity</b> <span>43, 82, 85–87, 89, 237, 243</span></p>
+<p><b>Wazuh</b> <span>107–108, 114–115, 117, 119, 186, 210</span></p>
 <div class="idx-l">Z</div>
-<p><b>Zero Trust</b> <span>14, 17–18, 70, 197–199, 209</span></p>
-<p><b>ZTNA</b> <span>164–165, 172, 198–200, 203, 208</span></p>
+<p><b>Zero Trust</b> <span>17–18, 72, 205–207, 217, 229</span></p>
+<p><b>ZTNA</b> <span>172–173, 180, 206–208, 211, 216</span></p>
 <div class="idx-l">ก</div>
-<p><b>กู้คืนข้อมูล</b> <span>17, 23–24, 94, 97, 99, 224, 226</span></p>
+<p><b>กู้คืนข้อมูล</b> <span>17, 23–24, 98, 101, 103, 235, 237</span></p>
 <div class="idx-l">ข</div>
-<p><b>ข้อมูลส่วนบุคคล</b> <span>26–27, 30, 48, 52, 126, 184, 187</span></p>
+<p><b>ข้อมูลส่วนบุคคล</b> <span>26–27, 30, 49, 53, 131, 192, 195</span></p>
 <div class="idx-l">ค</div>
-<p><b>ความตระหนักรู้</b> <span>33–34, 221–222</span></p>
-<p><b>เครื่องมือแพทย์</b> <span>9, 12, 78, 140, 149, 159, 161, 202</span></p>
+<p><b>ความตระหนักรู้</b> <span>33–34, 232–233</span></p>
+<p><b>เครื่องมือแพทย์</b> <span>80, 147, 156, 167, 169, 174, 210, 246</span></p>
 <div class="idx-l">จ</div>
-<p><b>แจ้งเหตุ</b> <span>22, 29–30, 123, 126, 137, 147–148</span></p>
+<p><b>แจ้งเหตุ</b> <span>22, 29–30, 128, 131, 143, 154, 245</span></p>
 <div class="idx-l">ท</div>
-<p><b>ทะเบียนทรัพย์สิน</b> <span>11, 48, 118, 186, 194, 200, 221, 228</span></p>
+<p><b>ทะเบียนทรัพย์สิน</b> <span>49, 122, 194, 202, 208, 232, 239, 242</span></p>
 <div class="idx-l">ธ</div>
-<p><b>ธรรมาภิบาล</b> <span>19, 22, 25–26, 31, 138–139, 221</span></p>
+<p><b>ธรรมาภิบาล</b> <span>19, 22, 25–26, 31, 145–146, 232</span></p>
 <div class="idx-l">บ</div>
-<p><b>แบ่งปันข้อมูลภัยคุกคาม</b> <span>182, 184–185, 188, 190–192, 196</span></p>
+<p><b>แบ่งปันข้อมูลภัยคุกคาม</b> <span>190, 192–193, 196, 198–200, 204</span></p>
 <div class="idx-l">ป</div>
-<p><b>ประเมินความเสี่ยง / Risk Register</b> <span>12, 14, 17, 21, 25, 32–33, 35</span></p>
+<p><b>ประเมินความเสี่ยง / Risk Register</b> <span>12, 14, 17, 21, 25, 32, 35, 37</span></p>
 <div class="idx-l">ผ</div>
-<p><b>ผู้รับเหมา / Vendor</b> <span>58, 120, 140, 159, 161, 165, 172, 229</span></p>
-<p><b>แผนรับมือเหตุการณ์ (Incident Response)</b> <span>21, 33, 113, 115, 123, 145, 168, 221</span></p>
+<p><b>ผู้รับเหมา / Vendor</b> <span>60, 147, 150, 167, 169, 173, 180, 240</span></p>
+<p><b>แผนรับมือเหตุการณ์ (Incident Response)</b> <span>21, 33, 117, 119, 128, 152, 176, 232</span></p>
 <div class="idx-l">พ</div>
-<p><b>พ.ร.บ.การรักษาความมั่นคงปลอดภัยไซเบอร์</b> <span>19–20, 36, 123, 140, 145, 147–148</span></p>
+<p><b>พ.ร.บ.การรักษาความมั่นคงปลอดภัยไซเบอร์</b> <span>19–20, 36, 128, 147, 152, 154–155</span></p>
 <div class="idx-l">ร</div>
-<p><b>รหัสผ่าน</b> <span>10, 55, 89, 104, 134–135, 171, 227</span></p>
+<p><b>รหัสผ่าน</b> <span>10, 57, 93, 108, 140–141, 179, 238</span></p>
 <div class="idx-l">ว</div>
-<p><b>วุฒิภาวะ (Maturity)</b> <span>197, 199, 218, 220, 222</span></p>
+<p><b>วุฒิภาวะ (Maturity)</b> <span>205, 207, 227, 229, 231, 233</span></p>
 <div class="idx-l">ศ</div>
-<p><b>ศทส.สป.สธ.</b> <span>22, 25, 38–40, 46, 183, 216</span></p>
+<p><b>ศทส.สป.สธ.</b> <span>22, 25, 38–40, 46, 191, 224</span></p>
 <div class="idx-l">ส</div>
-<p><b>สกมช.</b> <span>11, 21, 112, 117, 121–122, 183, 186</span></p>
-<p><b>สคส.</b> <span>26, 28–30, 126, 131, 187, 225</span></p>
+<p><b>สกมช.</b> <span>11, 21, 116, 121, 125–126, 191, 194</span></p>
+<p><b>สคส.</b> <span>26, 28–30, 131, 136, 195, 236</span></p>
 </div>
 </div>
 </body>
